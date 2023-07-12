@@ -1,6 +1,6 @@
 * {   
     margin: 0;
-    scrollbar-color: blue orange;    
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -97,8 +97,35 @@ a {
 
     overflow-x: scroll;
 
-    padding-left: 450px;
+    padding-left: 700px;
 }
+
+.slider::-webkit-scrollbar {
+    background-color: #FFFFFF;
+}
+.slider::-webkit-scrollbar-thumb {
+    background-color: #00470F;
+    border-radius: 10px;
+}
+
+.countainerSlider {
+    margin: 2em;
+    box-shadow: -7px 7px 6px 0px #00000040;
+    
+    max-height: 491px;
+    flex-shrink: 2;
+
+}
+
+.countainerSlider div:first-of-type {
+    padding: 10px;
+}
+
+.countainerSlider h1 {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
 
 /* DIVISORES */
 
