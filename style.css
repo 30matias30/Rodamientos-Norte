@@ -1,6 +1,8 @@
 * {   
-    margin: 0;      
+    margin: 0;
+    scrollbar-color: blue orange;    
 }
+
 
 #header {
     background-image: url(./Pictures/Rectangle\ 9.svg);
@@ -63,7 +65,7 @@
 
 }
 
-a {
+#optionsBar div a {
     text-decoration: none;
     color: #FFFFFF;
 
@@ -76,12 +78,47 @@ a {
     
 }
 
+a {
+    text-decoration: none;
+}
+
+/* BODY */
+
+#body {
+    margin-top: 1em;
+}
+
+/* SLIDER */
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow-x: scroll;
+
+    padding-left: 450px;
+}
+
+/* DIVISORES */
+
 .divisor {
 
-    width: 1459px;
+    width: 100%;
     height: 36px;
     top: 270px;
-    left: -19px;
+}
+
+.divisor span {
+
+    color: #FFFFFF;
+
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 
@@ -91,6 +128,6 @@ a {
 }
 
 .down {
-    background: linear-gradient(180deg, #BE1522 -19.99%, #FFFFFF 97.75%);
+    background: linear-gradient(90deg, #FFFFFF 19.99%, #BE1522 97.75%);
 
 }
