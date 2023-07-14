@@ -13,3 +13,13 @@
 .inActive {
     opacity: 1%;
 }
+
+/* EN CONSTRUCCION */
+
+#preloader span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
