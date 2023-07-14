@@ -1,7 +1,5 @@
 const loader = document.getElementById('preloader');
 
-setTimeout(() => {
-
-    document.getElementById('preloader').style.display = "none";
-
-}, 7000);
+window.addEventListener("load", function() {
+    loader.classList.toggle ("inActive");
+});
