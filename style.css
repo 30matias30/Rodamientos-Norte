@@ -108,13 +108,13 @@ a {
     margin-bottom: 1px;
 }
 
-.slider::-webkit-scrollbar {
+/* .slider::-webkit-scrollbar {
     background-color: #FFFFFF;
 }
 .slider::-webkit-scrollbar-thumb {
     background-color: #00470F;
     border-radius: 10px;
-}
+} */
 
 .countainerSlider {
     margin: 2em;
