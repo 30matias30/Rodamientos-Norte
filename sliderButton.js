@@ -23,6 +23,10 @@ button.forEach(button => {
         
 });
 
+// "Timer" Function //
+
+
+
 
 // "Show News" Function //
 

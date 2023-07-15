@@ -13,9 +13,12 @@
 
 
 #header {
-    background-image: url(./Pictures/Rectangle\ 9.svg);
+    background-image: url(./Pictures/Rectangle\ 9\ \(1\).png);
     background-size: cover;
     height: 180px;
+
+    display: flex;
+    align-items: center;
 
     /* box-shadow: 0px 11px 4px 0px #00000040; */
 
@@ -170,103 +173,6 @@ a {
     transition-duration: 1s;
 }
 
-/* IMAGENES DEL SLIDER */
-
-.ima1 {
-    background: url(./Pictures/Rectangle\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ima2 {
-    background: url(./Pictures/Rectangle\ 2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ima3 {
-    background: url(./Pictures/Rectangle\ 3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ima4 {
-    background: url(./Pictures/Rectangle\ 4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ima5 {
-    background: url(./Pictures/Rectangle\ 5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ima6 {
-    background: url(./Pictures/unsplash_ms6N-gBtbCQ.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ima7 {
-    background: url(./Pictures/IMG-4454.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ima8 {
-    background: url(./Pictures/dog.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ima9 {
-    background: url(./Pictures/unsplash_VUEtP-eA9Mk.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-/* TEXTO DEL SLIDER */
-
-.frontImaText {
-    height: 200px;
-    padding: 1em;
-}
-
-
-.text1::before {
-    content: "¡Gran inauguración! Visítanos en Rodamientos Norte y descubre nuestras últimas ofertas en rodamientos y componentes industriales. ¡Te esperamos! ";
-}
-
-.text2::before {
-    content: "Nos enorgullece anunciar que Rodamientos Norte ha obtenido la certificación ISO 9001:2015, garantizando la calidad y confiabilidad de nuestros productos y servicios. ";
-}
-
-.text3::before {
-    content: "Nueva línea de productos: presentamos nuestra colección de rodamientos de alta precisión, ideales para aplicaciones industriales exigentes. Conoce más en nuestro sitio web";
-}
-
-.text4::before {
-    content: "Descuento especial por tiempo limitado! Aprovecha nuestra promoción del mes y obtén un 20% de descuento en rodamientos seleccionados. ¡No te lo pierdas! ";
-}
-
-.text5::before {
-    content: "Rodamientos Norte participará en la próxima feria industrial. Visítanos en nuestro stand para conocer nuestras soluciones de rodamientos y establecer nuevas alianzas comerciales ";
-}
-
-.text6::before {
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam";
-}
-
 /* SLIDER BUTTON */
 
 #sliderButtonContainer {
@@ -279,6 +185,7 @@ a {
     align-items: center;
 
     margin: 5px;
+    margin-bottom: 20px;
 
 }
 
