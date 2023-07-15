@@ -31,6 +31,9 @@ btn1.onclick = function() {
     news1.classList.remove('ima4');
     news2.classList.remove('ima5');
     news3.classList.remove('ima6');
+    news1.classList.remove('ima7');
+    news2.classList.remove('ima8');
+    news3.classList.remove('ima9');
 
     news1.classList.add('ima1');
     news2.classList.add('ima2');
@@ -39,6 +42,9 @@ btn1.onclick = function() {
     text1.classList.remove("text4");
     text2.classList.remove("text5");
     text3.classList.remove("text6");
+    text1.classList.remove("text7");
+    text2.classList.remove("text8");
+    text3.classList.remove("text9");
 
     text1.classList.add("text1");
     text2.classList.add("text2");
@@ -51,6 +57,9 @@ btn2.onclick = function() {
     news1.classList.remove('ima1');
     news2.classList.remove('ima2');
     news3.classList.remove('ima3');
+    news1.classList.remove('ima7');
+    news2.classList.remove('ima8');
+    news3.classList.remove('ima9');
 
     news1.classList.add('ima4');
     news2.classList.add('ima5');
@@ -59,8 +68,36 @@ btn2.onclick = function() {
     text1.classList.remove("text1");
     text2.classList.remove("text2");
     text3.classList.remove("text3");
+    text1.classList.remove("text7");
+    text2.classList.remove("text8");
+    text3.classList.remove("text9");
 
     text1.classList.add("text4");
     text2.classList.add("text5");
     text3.classList.add("text6");
+};
+
+btn3.onclick = function() {
+
+    news1.classList.remove('ima1');
+    news2.classList.remove('ima2');
+    news3.classList.remove('ima3');
+    news1.classList.remove('ima4');
+    news2.classList.remove('ima5');
+    news3.classList.remove('ima6');
+
+    news1.classList.add('ima7');
+    news2.classList.add('ima8');
+    news3.classList.add('ima9');
+
+    text1.classList.remove("text1");
+    text2.classList.remove("text2");
+    text3.classList.remove("text3");
+    text1.classList.remove("text4");
+    text2.classList.remove("text5");
+    text3.classList.remove("text6");
+
+    text1.classList.add("text7");
+    text2.classList.add("text8");
+    text3.classList.add("text9");
 };

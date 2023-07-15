@@ -155,7 +155,7 @@ a {
     width: 330px;
     height: 330px;
 
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 
 /* IMAGENES DEL SLIDER */
@@ -202,6 +202,27 @@ a {
     background-position: center;
 }
 
+.ima7 {
+    background: url(./Pictures/IMG-4454.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ima8 {
+    background: url(./Pictures/dog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ima9 {
+    background: url(./Pictures/unsplash_VUEtP-eA9Mk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* TEXTO DEL SLIDER */
 
 .frontImaText {
@@ -209,9 +230,6 @@ a {
     padding: 1em;
 }
 
-.text {
-    transition-duration: 3s;
-}
 
 .text1::before {
     content: "¡Gran inauguración! Visítanos en Rodamientos Norte y descubre nuestras últimas ofertas en rodamientos y componentes industriales. ¡Te esperamos! ";
