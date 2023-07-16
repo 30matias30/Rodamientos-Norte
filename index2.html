@@ -50,7 +50,7 @@
     <div class="slider">
         <div class="slides">
           <!--radio buttons start-->
-            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio1" checked>
             <input type="radio" name="radio-btn" id="radio2">
             <input type="radio" name="radio-btn" id="radio3">
           <!--radio buttons end-->
@@ -163,6 +163,17 @@
 
 
     </div>
+
+    <script type="text/javascript">
+        var counter = 2;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if(counter > 3){
+            counter = 1;
+          }
+        }, 5000);
+        </script>
 
 
     
