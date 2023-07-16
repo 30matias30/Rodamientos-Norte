@@ -1,7 +1,7 @@
 #preloader {
-    background: #ffffff url(./Pictures/Desktop\ -\ 47.png) center;
+    background: #ffffff url(./Pictures/Desktop\ -\ Blanco.png) center;
 
-    transition-duration: 5s;
+    transition-duration: 6s;
 
     height: 100vh;
     width: 100%;
@@ -14,7 +14,21 @@
     opacity: 1%;
 }
 
+#preloaderLogo {
+    background: #ffffff url(./Pictures/Desktop\ -\ 47.png) center;
+
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
 /* EN CONSTRUCCION */
+
 
 #preloader span {
     display: flex;
@@ -23,3 +37,4 @@
     height: 100vh;
     width: 100%;
 }
+
