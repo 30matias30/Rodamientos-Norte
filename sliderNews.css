@@ -14,13 +14,17 @@
 .newsHolder {
   display: flex;
   flex-flow: column;
-  align-items: center;
-
+    /* justify-content: space-between; */
   width: 20%;
-  height: 430px;
+  height: 532px;
   margin: 2em;
   
-  box-shadow: -7px 7px 6px 0px #00000040;
+  box-shadow: 0px 0px 10px 3px #00000040,
+              0px 0px 10px 3px #00000040,
+              0px 0px 10px 3px #00000040,
+              0px 0px 10px 3px #00000040;
+
+  /* background-color: rebeccapurple; */
 }
 
 .newsHolder:hover {
@@ -41,60 +45,56 @@
 .newsHolder div:not(.pictureHolder) {
   display: flex;
   flex-flow: column;
-  align-items: center;
-  justify-content: center;
   
   padding: 1em;
-
-  height: 200px;
 }
 
 .ima1 {
     background: url(./Pictures/Rectangle\ 1.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110% 110%;
     background-position: center;
 }
 
 .ima2 {
     background: url(./Pictures/Rectangle\ 2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110% 110%;
     background-position: center;
 }
 
 .ima3 {
     background: url(./Pictures/Rectangle\ 3.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110% 110%;
     background-position: center;
 }
 
 .ima4 {
     background: url(./Pictures/Rectangle\ 4.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110% 110%;
     background-position: center;
 }
 
 .ima5 {
     background: url(./Pictures/Rectangle\ 5.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110% 110%;
     background-position: center;
 }
 
 .ima6 {
     background: url(./Pictures/Rectangle\ 6.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110% 110%;
     background-position: center;
 }
 
 .ima7 {
     background: url(./Pictures/Rectangle\ 7.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110% 110%;
     background-position: center;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .ima9 {
-    background: url(./Pictures/Rectangle\ 9.png);
+    background: url(./Pictures/Messi.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -187,6 +187,7 @@
 .slide {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 
 }
 
@@ -195,9 +196,12 @@
 .navigation-manual{
   position: absolute;
   width: 100%;
-  margin-top: -40px;
+  /* margin-top: -40px; */
   display: flex;
   justify-content: center;
+
+  background-color: dodgerblue;
+  
 }
 
 .manual-btn{
@@ -206,6 +210,7 @@
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
+  
 }
 
 .manual-btn:not(:last-child){
@@ -239,13 +244,16 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top: 560px;
+  margin-top: 600px;
+
+  background-color: violet;
 }
 
 .navigation-auto div{
   border: 2px solid var(--gris);
   background-color: var(--gris);
   padding: 5px;
+  
 
   width: 30px;
 
@@ -275,5 +283,5 @@
 
 label {
   width: 30px;
-  background-color: var(--gris);
+
 }
