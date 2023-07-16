@@ -1,7 +1,7 @@
 * {   
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    /* outline: solid 1px red; */
+    outline: solid 1px red;
 
     --verdeOscuro: #00470F;
     --verdeClaro: #0A9427;
@@ -119,17 +119,17 @@ a {
 
 /* SLIDER */
 
-.slider {
+/* .slider {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
     /* overflow-x: scroll; */
 
     /* padding-left: 100px; */
 
-    margin-bottom: 1px;
-}
+    /* margin-bottom: 1px;
+} */
 
 .sliderGroup {
     display: flex;
