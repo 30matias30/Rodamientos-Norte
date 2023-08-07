@@ -1,0 +1,60 @@
+.secondHeader {
+    background-size: cover;
+    height: 180px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 3s;
+
+    /* animation: changeHeader 1s ease-in; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+
+}
+
+#secondIcon {
+    padding: 10px;
+    
+    width: 233.9994659423828px;
+    height: 104.81282043457031px;
+    top: 35px;
+    left: 19px;
+
+    cursor: pointer;
+
+    background-image: url(./ICO/Group\ negro.svg);
+    background-size: cover;
+
+    transition: 1s;
+
+}
+
+/* @keyframes changeHeader {
+
+    0% {
+        background-image: url(./Pictures/Rectangle\ 9\ \(1\).png);
+        
+    }
+    100% {
+        background-image: none;
+        justify-content: center;
+
+    }
+    
+} */
+
+.header {
+    background-image: url(./Pictures/Rectangle\ 9\ \(1\).png);
+    background-size: cover;
+    height: 180px;
+
+    display: flex;
+    align-items: center;
+
+    /* box-shadow: 0px 11px 4px 0px #00000040; */
+
+
+}

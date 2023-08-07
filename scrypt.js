@@ -1,3 +1,5 @@
+// LOADER
+
 const loader = document.getElementById('preloader');
 const loaderLogo = document.getElementById('preloaderLogo');
 
@@ -19,3 +21,12 @@ loaderLogo.onclick = function() {
     loaderLogo.style.display="none";
 
 }
+
+const ini = document.getElementById('ini');
+const head = document.getElementById('header');
+
+ini.addEventListener('click', () => {
+
+    head.classList.remove('header');
+    head.classList.add('secondHeader');
+})
