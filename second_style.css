@@ -1,3 +1,10 @@
+* {
+    --verdeOscuro: #00470F;
+    --verdeClaro: #0A9427;
+    --gris: #878787;
+    --bordo: #BE1522;
+}
+
 .secondHeader {
     background-size: cover;
     height: 180px;
@@ -57,4 +64,82 @@
     /* box-shadow: 0px 11px 4px 0px #00000040; */
 
 
+}
+
+/* SECOND STYLE --- INSTITUCIONAL */
+
+.inst-body {
+    display: flex;
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.inst-card-container {
+    display: flex;
+    flex-flow: column;
+
+    width: 50%;
+
+    margin: 2em;
+}
+
+.inst-card-container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inst-card-container div:nth-of-type(2) div:first-child {
+    width: 40%;
+    height: 90%;    
+}
+
+.inst-card-picture {
+    width: 40%;
+    height: 400PX;
+
+    background-image: url(./Pictures/ezgif\ 2.png);
+    background-size: cover;
+}
+
+#inst-card-picture-green {
+    width: 40%;
+    height: 400PX;
+}
+
+#inst-card-text-green {
+    width: 50%;
+    height: 90%;
+}
+
+.inst-card-tittle {
+    color: #ffffff;
+    width: 50%;
+    border-radius: 0 0 10px 0;
+
+    padding-left: 30px;
+
+    font-weight: bold;
+    height: 2rem;
+}
+
+#inst-card-tittle-green {
+    border-radius: 0 0 0 10px;
+
+}
+
+.red-color {
+    background-color: var(--bordo);
+}
+
+.inst-card-tittle-element {
+    width: 50%;
+    height: 5px;
+    margin-left: -2px;
+}
+
+.green-color {
+    background-color: var(--verdeOscuro);
 }
