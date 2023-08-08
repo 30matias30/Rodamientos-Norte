@@ -249,6 +249,70 @@ a {
 
 } */
 
+/* MIDDLE NEWS */
+
+#middle-news {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#middle-news p {
+    color: var(--verdeOscuro)
+}
+
+.card {
+    height: 450px;
+    width: 1000px;
+
+    border-radius: 10px;
+
+    box-shadow: 9px 9px 30px 0px #00000040;
+
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-card {
+    height: 360px;
+    width: 432px;
+
+    border-radius: 20px;
+}
+
+.tittle-card {
+    background-color: var(--bordo);
+    width: 500px;
+    height: 50px;
+
+    border-radius: 10px;
+
+    margin-bottom: 10px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-card {
+    background-color: var(--verdeOscuro);
+    width: 500px;
+    height: 250px;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+/* FOOTER */
+
 .footer {
     background: #BE1522;
     display: flex;
