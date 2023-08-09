@@ -1,0 +1,131 @@
+* {
+    --verdeOscuro: #00470F;
+    --verdeClaro: #0A9427;
+    --gris: #878787;
+    --bordo: #BE1522;
+}
+
+#catalog-body {
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+
+    justify-content: center;
+    align-items: center;
+     
+    padding-top: 2em;
+}
+
+.catalog-card {
+
+    width: 350px;
+    height: 370px;
+
+    display: flex;
+    flex-flow: column;
+
+    align-items: center;
+    justify-content: space-between;
+
+    border: 3px solid var(--bordo);
+    border-radius: 6px;
+
+    margin: 5px;
+}
+
+.catalog-card-tittle {
+    background-color: var(--bordo);
+    border-radius: 0 0px 10px 10px;
+
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog-card-img {
+
+    width: 205px;
+    height: 205px;
+
+    border-radius: 20px;
+
+    background-size: cover;
+}
+
+
+/* BOTON */
+
+.catalog-card-button {
+
+    width: 180px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid var(--verdeOscuro);
+    border-radius: 20px;
+
+    margin-bottom: 1em;
+
+    transition: 400ms;
+
+}
+
+.catalog-card-button:hover {
+
+    cursor: pointer;
+
+    background-color: var(--verdeClaro);
+    border: 3px solid var(--verdeClaro);
+    color: #ffffff;
+
+    transform: scale(1.05);
+    transition: 400ms;
+}
+
+
+/* IMAGENES DL CATALOGO */
+
+#catalog-one {
+    background-image: url(./Pictures/Catalogo/Catalogo01.png) ;
+}
+
+#catalog-two {
+    background-image: url(./Pictures/Catalogo/Catalogo02.png) ;
+}
+
+#catalog-three {
+    background-image: url(./Pictures/Catalogo/Catalogo03.png) ;
+}
+
+#catalog-four {
+    background-image: url(./Pictures/Catalogo/Catalogo04.png) ;
+}
+
+#catalog-five {
+    background-image: url(./Pictures/Catalogo/Catalogo05.png) ;
+}
+
+#catalog-six {
+    background-image: url(./Pictures/Catalogo/Catalogo06.png) ;
+}
+
+#catalog-seven {
+    background-image: url(./Pictures/Catalogo/Catalogo07.png) ;
+}
+
+#catalog-eight {
+    background-image: url(./Pictures/Catalogo/Catalogo08.png) ;
+}
+
+#catalog-nine {
+    background-image: url(./Pictures/Catalogo/Catalogo09.png) ;
+}
