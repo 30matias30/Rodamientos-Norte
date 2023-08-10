@@ -30,3 +30,4 @@ ini.addEventListener('click', () => {
     head.classList.remove('header');
     head.classList.add('secondHeader');
 })
+
