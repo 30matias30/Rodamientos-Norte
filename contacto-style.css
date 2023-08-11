@@ -1,0 +1,44 @@
+.contact-top-body {
+    display: flex;
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-map-container {
+
+    display: flex;
+
+    justify-content: space-between;
+    background-color: var(--verdeOscuro);
+    color: #ffffff;
+
+    width: 1020px;
+}
+
+.map-card {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.direction {
+
+    background-color: var(--verdeOscuro);
+    width: 1020px;
+    height: 6em;
+
+    color: #ffffff;
+
+    font-weight: 700;
+
+    border-radius: 0 0 10px 10px;
+}
+
+.direction p {
+    margin-top: 1em;
+    padding-left: 8em;
+}
