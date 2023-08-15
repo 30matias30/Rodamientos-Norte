@@ -132,11 +132,6 @@ a {
     margin-bottom: 3em;
     display: flex;
     flex-flow: column;
-
-    justify-content: space-between;
-
-    height: 75%;
-
 }
 
 
@@ -243,6 +238,7 @@ a {
 
 .up {
     background: linear-gradient(90deg, #BE1522 -19.99%, #FFFFFF 97.75%);
+    margin-bottom: 1em;
 
 }
 
@@ -260,7 +256,9 @@ a {
 }
 
 #middle-news p {
-    color: var(--verdeOscuro)
+    color: var(--verdeOscuro);
+    font-size: 32px;
+    font-weight: 800;
 }
 
 .card {
@@ -296,6 +294,9 @@ a {
     margin-bottom: 10px;
     color: #FFFFFF;
 
+    font-weight: 600;
+
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,6 +312,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    text-align: center;
+    font-weight: 500;
 
     color: #FFFFFF;
 }
@@ -387,6 +391,8 @@ a {
 
     width: 400px;
     height: 250px;
+
+    cursor: pointer;
 }
 
 
@@ -408,6 +414,12 @@ a {
 .options-footer a {
     margin: 5px;
     font-weight: 500;
+    transition: 300ms;
+}
+
+.options-footer a:hover {
+    text-shadow: 1px 1px 10px #FFFFFF;
+    transition: 300ms;
 }
 
 .contact-footer {
@@ -420,24 +432,31 @@ a {
 
 }
 
+.contact-footer {
+    display: flex;
+    flex-flow: column;
+}
+
 .contact-footer div{
     display: flex;
     align-items: center;
     font-size: medium;
-    /* margin: 5px; */
-
+    
     height: 2rem;
+    
 }
 
-.contact-footer div div {
-    margin-right: 10px;
-    margin-top: 10px;
-}
 
 
 .contact-ico {    
     height: 20px;
     width: 20px;
-    /* margin: 10px; */
+
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
+
+.contact-footer > div:nth-child(4) {
+    margin-top: 2em;
+}
