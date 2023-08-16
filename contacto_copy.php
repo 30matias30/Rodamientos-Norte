@@ -1,3 +1,39 @@
+<?php 
+
+  function validate($nombre, $email, $provincia, $localidad, $postal, $mensaje, $phone) {
+    return !empty($name) && !empty($email) && !empty($provincia) && !empty($localidad) &&  !empty($postal) && !empty($mensaje) && !empty($phone);
+
+  }
+
+
+  if( isset($_POST["form"])){
+
+    $status = "";
+
+    if( validate(...$_POST) ) {
+
+      $name = $_POST["name"];
+      $email = $_POST["email"];
+      $provincia = $_POST["provincia"];
+      $localidad = $_POST["localidad"];
+      $postal = $_POST["postal"];
+      $mensaje = $_POST["mensaje"];
+      $phone = $_POST["phone"];
+
+
+      $status = "success";
+
+    } else {
+
+      $status = "error";
+
+    }
+
+  };
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -129,22 +165,22 @@
         <form action="./" method="post">
           <div>
 
-            <input type="text" name="" id="nombre" placeholder="Nombre y Apellido">
-            <input type="text" name="" id="provincia" placeholder="Provincia">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+            <input type="text" name="provincia" id="provincia" placeholder="Provincia">
   
 
           </div>
           <div>
 
-            <input type="email" name="" id="email" placeholder="Correo Electrónico">
-            <input type="text" name="" id="localidad" placeholder="Localidad">
-            <input type="number" min="0" max="4" id="cdp" placeholder="C. Postal">
+            <input type="email" name="email" id="email" placeholder="Correo Electrónico">
+            <input type="text" name="localidad" id="localidad" placeholder="Localidad">
+            <input type="number" name="postal" min="0" max="4" id="cdp" placeholder="C. Postal">
 
           </div>
           <div>
 
-            <input type="tel" name="" id="phone" placeholder="Teléfono/Celular">
-            <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje..."></textarea>
+            <input type="tel" name="phone" id="phone" placeholder="Teléfono/Celular">
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje..."></textarea>
 
           </div>
 
