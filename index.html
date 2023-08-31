@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="./contacto-style.css">
     <link rel="stylesheet" href="./productos-style.css">
 
+    <!-- Mobile Style -->
+    <link rel="stylesheet" href="mobile-style.css">
+
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -258,10 +261,35 @@
           if(counter > 3){
             counter = 1;
           }
-        }, 5000);
+        }, 125000);
+
+          // Obtener la resolución de pantalla del dispositivo
+          const screenWidth = window.innerWidth;
+
+          // Definir las resoluciones de pantalla para redireccionar
+          const minResolution = 375; // Mínima resolución
+          const maxResolution = 1023; // Máxima resolución
+
+          // URL a la que redirigir según la resolución
+          let redirectURL = '';
+
+          // Verificar si la resolución está dentro del rango
+          if (screenWidth >= minResolution && screenWidth <= maxResolution) {
+            redirectURL = 'url_a_redirigir'; // Cambia 'url_a_redirigir' por la URL que desees
+          } else {
+            redirectURL = 'otra_url_a_redirigir'; // Cambia 'otra_url_a_redirigir' por la otra URL que desees
+          }
+
+          // Redirigir a la URL correspondiente
+          if (redirectURL) {
+            window.location.href = redirectURL;
+  }
+
+
+
         </script>
 
-<script src="./scrypt.js"></script>
+        <script src="./scrypt.js"></script>
     
 </body>
 </html>
