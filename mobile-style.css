@@ -150,6 +150,8 @@ body {
 .green-separator {
   height: auto;
   padding: 10px;
+  box-shadow: 9px 9px 30px 0px #00000090;
+
 
 }
 
@@ -173,6 +175,78 @@ body {
   margin-bottom: 1rem;
 
 
+
+}
+
+/* Footer Photo */
+
+.footer-photo {
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 9px 9px 30px 0px #00000090;
+}
+
+.footer-photo img {
+  width: 100vw;
+  transform: scale(1);
+}
+
+/* Footer */
+
+.footer {
+  flex-flow: column;
+  position: relative;
+
+  justify-content: center;
+
+  height: 400px;
+}
+
+#icon-footer {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 150px;
+  height: 120px;
+
+  background-size: cover;
+}
+
+.contact-footer {
+  margin: 0;
+}
+
+.contact-footer div {
+  flex-flow: column-reverse;
+}
+
+.contact-footer p {
+  font-size: medium;
+  padding: 5px;
+}
+
+.contact-footer .title {
+  font-size: larger;
+  margin-top: 1em;
+}
+
+.options-footer {
+  display: block;
+
+  text-align: center;
+
+  height: 50px;
+  margin: 0 0 0 0;
+}
+
+.options-footer a {
+  
+  font-weight: 700;
+  font-size: larger;
+
+  padding: 10px 10px 0 10px;
 
 }
 
