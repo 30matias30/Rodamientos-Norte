@@ -62,15 +62,15 @@ optionButton.forEach( div => {
 
 // ICONO DE NAVEGACIÓN
 
-const icon = document.getElementById('icon');
-const footIcon = document.getElementById('icon-footer');
+// const icon = document.getElementById('icon');
+// const footIcon = document.getElementById('icon-footer');
 
-function goHome() {
-    window.location.href = "./index.html"
-}
+// function goHome() {
+//     window.location.href = "./index.html"
+// }
 
-icon.onclick = goHome;
-footIcon.onclick = goHome;
+// icon.onclick = goHome;
+// footIcon.onclick = goHome;
 
 
 // DESCARGAR CATÁLOGOS
@@ -108,3 +108,21 @@ footerButton.forEach(div => {
     });
 })
 
+// MOBILE SLIDER
+
+const mobileSliderButton = document.querySelectorAll('.slide-button');
+const mobileSliderCard = document.querySelectorAll('.mobile-slide');
+
+function selectBox(event) {
+  // Remover el estilo seleccionado de todos los divs
+  mobileSliderButton.forEach(box => box.classList.remove('checked'));
+  
+  // Agregar el estilo seleccionado al div clickeado
+  event.target.classList.add('checked');
+  
+}
+
+// Agregar evento clic a cada div
+mobileSliderButton.forEach(box => {
+  box.addEventListener('click', selectBox);
+});
