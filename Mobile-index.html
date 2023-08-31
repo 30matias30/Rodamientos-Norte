@@ -171,7 +171,26 @@
       </div>
 
 
+      <script type="text/javascript">
 
+        // Obtener la resolución de pantalla del dispositivo
+        const screenWidth = window.innerWidth;
+        // Definir las resoluciones de pantalla para redireccionar
+        const minResolution = 375; // Mínima resolución
+        const maxResolution = 1023; // Máxima resolución
+        // URL a la que redirigir según la resolución
+        let redirectURL = '';
+        // Verificar si la resolución está dentro del rango
+        if (screenWidth >= minResolution && screenWidth <= maxResolution) {
+          redirectURL = ''; // Cambia 'url_a_redirigir' por la URL que desees
+        } else {
+          redirectURL = './index.html'; // Cambia 'otra_url_a_redirigir' por la otra URL que desees
+        }
+        // Redirigir a la URL correspondiente
+        if (redirectURL) {
+          window.location.href = redirectURL;
+        }
+    </script>
 
 
 
