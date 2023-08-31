@@ -114,15 +114,17 @@ const mobileSliderButton = document.querySelectorAll('.slide-button');
 const mobileSliderCard = document.querySelectorAll('.mobile-slide');
 
 function selectBox(event) {
-  // Remover el estilo seleccionado de todos los divs
-  mobileSliderButton.forEach(box => box.classList.remove('checked'));
-  
-  // Agregar el estilo seleccionado al div clickeado
-  event.target.classList.add('checked');
+
+    const clickedId = event.target.id;
+    // Remover el estilo seleccionado de todos los divs
+    mobileSliderButton.forEach(div => div.classList.remove('checked'));
+    
+    // Agregar el estilo seleccionado al div clickeado
+    event.target.classList.add('checked');
   
 }
 
 // Agregar evento clic a cada div
-mobileSliderButton.forEach(box => {
-  box.addEventListener('click', selectBox);
+mobileSliderButton.forEach(div => {
+  div.addEventListener('click', selectBox);
 });
