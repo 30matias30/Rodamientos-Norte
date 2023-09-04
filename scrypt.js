@@ -34,6 +34,8 @@ loaderLogo.onclick = function() {
 // BOTONES DE NAVEGACIÓN
 
 const optionButton = document.querySelectorAll('.option');
+const sideBar = document.querySelector('.sideBar');
+const body = document.querySelector('body');
 
 optionButton.forEach( div => {
     div.addEventListener("click", function() {
@@ -53,6 +55,9 @@ optionButton.forEach( div => {
                 break;
             case "./contacto.html":
                 window.location.href = url;
+                break;
+            case "sideBar":
+                sideBar.classList.toggle('actived');
                 break;
             default:
                 window.alert("URL no válida");
@@ -114,6 +119,8 @@ const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll(".mobile-slide")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");
 
+const slideImages = document.querySelectorAll(".slide-img");
+
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
 
 const showHideIcons = () => {
@@ -174,6 +181,11 @@ const dragStop = () => {
     isDragging = false;
     autoSlide();
 }
+
+slideImages.forEach((div) => {
+    div.addEventListener("mousedown", dragStart);
+    div.addEventListener("touchstart", dragStart);
+});
 
 carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("touchstart", dragStart);
