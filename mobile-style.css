@@ -63,19 +63,25 @@ body {
 
 /* Options Bar */
 
-#optionsBar div :not(#ini){
+#optionsBar div :not(#bar){
     display: none;
 }
 
 /* Side Bar */
 
+#sideBar {
+  display: block;
+}
+
 .sideBar {
+
+  
   position: fixed;
   top: 0px;
   left: -350px;
   width: 350px;
   height: 80%;
-  z-index: 1;
+  z-index: 3;
 
   transition: all 300ms ease-in-out;
 

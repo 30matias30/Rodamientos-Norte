@@ -123,7 +123,11 @@ a {
 .option:hover:after {
     background-color: var(--bordo);
 }
+/* SIDE BAR */
 
+#sideBar {
+    display: none;
+}
 
 /* BODY */
 

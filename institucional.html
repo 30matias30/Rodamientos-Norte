@@ -17,12 +17,17 @@
     <link rel="stylesheet" href="./contacto-style.css">
     <link rel="stylesheet" href="./productos-style.css">
 
+    <!-- Mobile Style -->
+    <link rel="stylesheet" href="mobile-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     
 </head>
+
 <body>
 
     <div id="preloader"></div>
@@ -38,6 +43,7 @@
     <div id="optionsBar"> 
     
         <div>
+            <div id="bar" class="option" data-url="sideBar">INICIO</div>
           <div id="ini" class="option" data-url="./index.html">NORTE</div>
           <div id="prod" class="option" data-url="./productos.html">PRODUCTOS</div>
           <div id="inst" class="option" data-url="./institucional.html">INSTITUCIONAL</div>
@@ -45,6 +51,43 @@
           <div id="contact" class="option" data-url="./contacto.html">CONTACTO</div>
         </div>
   
+    </div>
+
+    <div id="sideBar" class="sideBar">
+
+      <div id="header" class="header">
+
+        <div>
+          <div class="header-element green"></div>
+          <div class="header-element red"></div>
+        </div>
+  
+          <div id="icon" class="icon"></div>
+  
+          <div>
+            <div class="header-element red"></div>
+            <div class="header-element green"></div>
+          </div>
+    
+      </div>
+
+      <div class="close-btn">
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="links">
+
+        <div id="ini" class="option" data-url="./index.html">NORTE</div>
+        <div id="prod" class="option" data-url="./productos.html">PRODUCTOS</div>
+        <div id="inst" class="option" data-url="./institucional.html">INSTITUCIONAL</div>
+        <div id="catalog" class="option" data-url="./catalogos.html">CATALOGOS</div>
+        <div id="contact" class="option" data-url="./contacto.html">CONTACTO</div>
+
+      </div>
+
+      <div class="sideBar-footer"></div>
+
     </div>
           
     <div class="inst-body">
