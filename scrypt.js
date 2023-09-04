@@ -35,7 +35,13 @@ loaderLogo.onclick = function() {
 
 const optionButton = document.querySelectorAll('.option');
 const sideBar = document.querySelector('.sideBar');
-const body = document.querySelector('body');
+const body = document.querySelector('#body');
+const header = document.querySelector('#header');
+const optionsBar = document.querySelector('#optionsBar');
+const middleNews = document.querySelector('#middle-news');
+const footerPhoto = document.querySelector('.footer-photo');
+const footer = document.querySelector('.footer');
+const greenSeparator = document.querySelector('.green-separator');
 
 optionButton.forEach( div => {
     div.addEventListener("click", function() {
@@ -57,13 +63,28 @@ optionButton.forEach( div => {
                 window.location.href = url;
                 break;
             case "sideBar":
-                sideBar.classList.toggle('actived');
+                sideBar.classList.toggle('actived'); //Funcion para desplegar el Side Bar Menu
+                blur();
                 break;
             default:
                 window.alert("URL no válida");
         }
     })
 })
+
+const closeBtn = document.querySelector('.close-btn');
+
+closeBtn.addEventListener('click', function(){
+    sideBar.classList.remove('actived');
+    blur();
+});
+
+function blur() {
+    const blurElements = [body, header, optionsBar, middleNews, footerPhoto, footer, greenSeparator];
+    blurElements.forEach((element) => {
+        element.classList.toggle('blur');
+    })
+}
 
 // ICONO DE NAVEGACIÓN
 
