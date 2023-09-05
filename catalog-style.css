@@ -122,3 +122,19 @@
 #catalog-nine {
     background-image: url(./Pictures/Catalogo/Catalogo09.png) ;
 }
+
+@media screen and (min-width: 375px) and (max-width: 1023px) {
+
+    #catalog-body {
+        grid-template-columns: auto;
+    }
+
+    .catalog-card {
+        border: solid 4px var(--verdeOscuro);
+    }
+
+    .catalog-card-tittle {
+        background-color: var(--verdeOscuro);
+    }
+
+}

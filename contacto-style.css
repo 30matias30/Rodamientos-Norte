@@ -289,3 +289,173 @@ textarea::placeholder {
     text-align: center;
 
 }
+
+@media screen and (min-width: 1023px) {
+    .mobile-contact-top-body {
+        display: none;
+    }
+
+    .mobile-contact-form {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1023px) {
+
+    .desktop-contact-top-body {
+        display: none;
+    }
+
+    .contact-top-body h1 {
+
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .contact-map-container {
+        flex-flow: column;
+    }
+
+    .contact-map-container {
+        width: auto;
+    }
+
+    .direction {
+        width: auto;
+    }
+
+    .direction p {
+        padding: 1em;
+        overflow-wrap: break-word;
+    }
+
+    .contact-top-body h1 {
+        text-align: center;
+    }
+
+    .contact-top-body > p {
+        width: auto;
+        height: auto;
+        margin: 1rem;
+    }
+
+    .contact-links {
+        width: 90%;
+        height: auto;
+        flex-flow: column;
+    }
+
+    .contact-links h1 {
+        text-shadow: none;
+        margin-top: 0;
+    }
+
+    .desktop-contact-form {
+        display: none;
+    }
+
+    .contact-form-card {
+        width: 90%;
+        height: 450px;
+    }
+
+    .contact-form-card > div {
+
+        height: 1px;
+    }
+
+    form div {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    #nombre {
+        width: 90%;
+    }
+
+    #email {
+        width: 90%;
+    }
+
+    #phone {
+        width: 90%;
+    }
+
+    #provincia {
+        width: 90%;
+    }
+
+    #localidad {
+        width: 90%;
+    }
+
+    #cdp {
+        width: 90%;
+    }
+
+    #mensaje {
+        width: 90%;
+        height: 60%;
+    }
+
+    form div {
+        margin: 0;
+    }
+
+    form div:nth-child(3){
+        flex-flow: column;
+        height: 300px;
+        justify-content: space-around;
+    }
+
+    #contact-form-btn {
+        margin-right: 0;
+    }
+
+    .nextButton {
+        background-color: var(--bordo);
+        color: #ffffff;
+        border: none;
+        border-radius: 20px;
+        width: 180px;
+        height: 3rem;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        text-align: center;
+        margin-left: auto;
+        margin-right: 1em;
+        margin-top: 1rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nextButton p {
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+
+        margin: 0;
+
+    }
+
+    input {
+        margin-top: 1rem;
+    }
+
+    .contact-form-card-invisible{
+        display: none;
+    }
+
+    #contact-form-card-invisible{
+        display: none;
+    }
+
+    form div:nth-child(3) {
+        display: flex;
+    }
+}
