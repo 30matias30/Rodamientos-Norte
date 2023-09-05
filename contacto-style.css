@@ -351,6 +351,14 @@ textarea::placeholder {
         margin-top: 0;
     }
 
+    .contact-bottom-body {
+        height: calc(calc(400px + 300px));
+    }
+
+    .contact-bottom-body > div:nth-child(2) {
+        height: 300px;
+    }
+
     .desktop-contact-form {
         display: none;
     }
