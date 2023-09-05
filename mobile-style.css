@@ -361,7 +361,7 @@ body {
   height: 400px;
 }
 
-#icon-footer {
+.icon-footer {
   position: absolute;
   top: 0;
   right: 0;
@@ -406,6 +406,14 @@ body {
 
   padding: 10px 10px 0 10px;
 
+}
+
+.desktop-footer {
+  display: none;
+}
+
+.desktop-green-separator {
+  display: none;
 }
 
 }

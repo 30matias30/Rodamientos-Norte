@@ -399,7 +399,7 @@ a {
     color: #FFFFFF;
 }
 
-#icon-footer {
+.icon-footer {
     background-image: url(./ICO/LOGO\ RODAMIENTOS\ NORTE\ blanco-03.svg);
 
     width: 400px;
@@ -472,4 +472,17 @@ a {
 
 .contact-footer > div:nth-child(4) {
     margin-top: 2em;
+}
+
+
+@media screen and (min-width: 1023px) {
+    
+    .mobile-footer {
+        display: none;
+    }
+
+    .mobile-green-separator {
+        display: none;
+    }
+
 }
