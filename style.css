@@ -123,6 +123,15 @@ a {
 .option:hover:after {
     background-color: var(--bordo);
 }
+
+@media screen and (min-width: 1023px) {
+
+    #bar {
+        display: none;
+    }
+
+}
+
 /* SIDE BAR */
 
 #sideBar {
