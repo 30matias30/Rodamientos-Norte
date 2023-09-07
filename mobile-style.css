@@ -201,9 +201,8 @@ body {
   width: 100%;
   height: 300px;
   border-radius: 10px 10px 0 0;
-
-  background-image: url("./Pictures/Rectangle 1.png");
   background-position: center;
+  background-size: cover;
 }
 
 .mobile-slide h3 {
@@ -506,4 +505,43 @@ body {
   .carousel img{
     width: 100%;
   }
+}
+
+
+/* IMAGENES DEL MOBILE SLIDER */
+
+#slide1 .slide-img {
+  background-image: url(./Pictures/Noticias/Noticia\ 1.jpeg);
+}
+
+#slide2 .slide-img {
+  background-image: url(./Pictures/Noticias/Noticia\ 2.jpeg);
+}
+
+#slide3 .slide-img {
+  background-image: url(./Pictures/Noticias/Noticia\ 3.jpeg);
+}
+
+#slide4 .slide-img {
+  background-image: url(./Pictures/Noticias/Noticia\ 4.jpeg);
+}
+
+#slide5 .slide-img {
+  background-image: url(./Pictures/Noticias/Noticia\ 5.jpeg);
+}
+
+#slide6 .slide-img {
+  background-image: url(./Pictures/Noticias/Noticia\ 6.jpeg);
+}
+
+#slide7 .slide-img {
+  background-image: url(./Pictures/Noticias/Noticia\ 7.jpeg);
+}
+
+#slide8 .slide-img {
+  background-image: url(./Pictures/Noticias/Noticia\ 8.jpeg);
+}
+
+#slide9 .slide-img {
+  background-image: url(./Pictures/Noticias/Noticia\ 9.jpeg);
 }
