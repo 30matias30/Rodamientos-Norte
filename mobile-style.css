@@ -562,3 +562,191 @@ h3 {
   width: 100%;
   white-space: normal;
 }
+
+/* TEXTO DE LAS TARJETAS MOBILE SLIDER */
+
+/* TARJETA 1 */
+
+#slide1.mobile-slide-notSelected p::before {
+  content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo ';
+}
+
+#slide1.mobile-slide-notSelected span::before {
+  content: '...mas';
+}
+
+#slide1.mobile-slide-selected p::before {
+  content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año. Esta reducción en la producción se debe a la falta de precipitaciones y las condiciones climáticas desafiantes. La incertidumbre se ha visto exacerbada por los cambios en la política gubernamental, incluidas las fluctuaciones cambiarias y los Derechos de Exportación. Estos factores han contribuido a la dificultad que enfrentan los agricultores en la producción y en las actividades relacionadas, como el transporte y el uso de combustibles. Además, la mano de obra también se ha visto afectada por esta disminución en la producción.  La merma en la producción no solo afecta a los agricultores, sino que también tiene un impacto en la recaudación del Estado provincial. Dado que muchas actividades derivadas de la producción agrícola están sujetas a impuestos como los Ingresos Brutos, la disminución en la producción tiene un efecto directo en los ingresos del gobierno provincial.  Aunque se han implementado algunas medidas de emergencia por parte del gobierno provincial, los agricultores consideran que estas medidas son insuficientes para abordar las necesidades actuales. Aunque la declaración de emergencia brinda cierta tranquilidad en términos de recursos financieros, las ayudas económicas específicas no han sido adecuadas para enfrentar los desafíos que enfrentan los agricultores en la realidad actual.  Se espera que las consecuencias de esta sequía se sientan a largo plazo, ya que las actividades agrícolas y sus efectos económicos tienden a ser procesos más lentos. Dado que el sector agrícola es un importante contribuyente a las reservas de divisas del país, se plantea la necesidad de una reconversión en el enfoque de trabajo para enfrentar los desafíos presentes y futuros.  En resumen, la sequía en Argentina ha tenido un impacto significativo en la producción agrícola y las actividades relacionadas en la provincia. Las condiciones climáticas adversas y los factores políticos han contribuido a una disminución en la producción, lo que a su vez afecta a la economía provincial y a largo plazo requerirá adaptación y soluciones.';
+}
+
+#slide1.mobile-slide-selected span::before {
+  content: '';
+}
+
+/* TARJETA 2 */
+
+#slide2.mobile-slide-notSelected p::before {
+  content: 'La economía argentina enfrenta desafíos en la actualidad. La volatilidad cambiaria y la inflación impactan en diversos sectores, incluida la industria';
+}
+
+#slide2 span::before {
+  content: '...mas';
+}
+
+#slide2.mobile-slide-selected p::before {
+  content: 'La economía argentina enfrenta desafíos en la actualidad. La volatilidad cambiaria y la inflación impactan en diversos sectores, incluida la industria. La incertidumbre económica ha llevado a un ajuste en la producción industrial, y las empresas están evaluando estrategias para adaptarse a la realidad del mercado. Las fluctuaciones en los mercados y las políticas económicas en evolución han creado un entorno desafiante para la industria. La inversión y la toma de decisiones se han vuelto más cautelosas, ya que las empresas buscan equilibrar sus operaciones en medio de la incertidumbre. La situación también ha afectado la cadena de suministro, el empleo y la planificación a largo plazo.  A pesar de estos desafíos, algunas industrias han logrado mantener una posición sólida y buscar oportunidades de crecimiento en este contexto. La adaptabilidad y la búsqueda de eficiencias son clave para enfrentar los cambios económicos y lograr la estabilidad. Las empresas están trabajando en estrategias que les permitan sortear los obstáculos actuales y mantener su contribución a la economía nacional. En resumen, la situación económica actual en Argentina ha generado impactos en la industria. La incertidumbre y la volatilidad económica han llevado a ajustes en la producción y a una evaluación cuidadosa de las decisiones empresariales. La adaptabilidad y la búsqueda de oportunidades son esenciales para mantener la resiliencia en este entorno económico cambiante.';
+}
+
+#slide1.mobile-slide-selected span::before {
+  content: '';
+}
+
+/* TARJETA 3 */
+
+#slide3.mobile-slide-notSelected p::before {
+  content: 'En la reciente edición de "Experiencia Agroindustria 2023", organizada por el Instituto para el Desarrollo Empresarial de la Argentina (IDEA), se';
+}
+
+#slide3 span::before {
+  content: '...mas';
+}
+
+#slide3.mobile-slide-selected p::before {
+  content: 'En la reciente edición de "Experiencia Agroindustria 2023", organizada por el Instituto para el Desarrollo Empresarial de la Argentina (IDEA), se reunieron alrededor de 350 asistentes vinculados al sector agroindustrial en Rosario. El evento, bajo el lema "Argentinos, volvámonos a ilusionar", reunió a empresarios, expertos en cambio climático, economistas y políticos para discutir las realidades y desafíos presentes en el ámbito. En un contexto cercano a las elecciones Primarias Abiertas Simultáneas y Obligatorias (PASO), la conferencia no solo abordó las perspectivas futuras, sino también proporcionó una plataforma para críticas a la gestión actual y formulación de solicitudes al futuro gobierno que asumirá en diciembre.  Uno de los analistas presentes, Gonzalo Ramírez Martiarena, fundador y director ejecutivo de Swiss Pampa, hizo hincapié en las dinámicas internacionales: "Mientras observamos un debilitamiento del dólar en el mundo, que facilita el acceso a commodities más asequibles para los importadores, en Argentina nos enfocamos en el corto plazo y en las diversas tasas de cambio. La alta tasa de interés complica el acceso al crédito y genera una reflexión más profunda para los productores agropecuarios en cuanto a la toma de decisiones". Nicolás Pino, Presidente de la Sociedad Rural Argentina, resaltó la importancia de las oportunidades perdidas y la relevancia de un enfoque estratégico: "Nuestra nación ha tenido la bendición de que las oportunidades han vuelto a presentarse varias veces en la historia. Hoy, nuevamente, estamos en ese punto en el que el mundo demanda lo que producimos, no solo alimentos sino también recursos energéticos y conocimiento. Sabemos lo que debemos hacer, y pedimos a quienes lideran que nos brinden las condiciones adecuadas para lograrlo". En resumen, la "Experiencia Agroindustria 2023" reunió a diversos actores para discutir la situación actual y las perspectivas futuras del sector agroindustrial. Las visiones presentadas destacaron la importancia de un enfoque estratégico en un contexto económico y político complejo, al tiempo que subrayaron la necesidad de generar las condiciones adecuadas para el desarrollo y crecimiento del sector.';
+}
+
+#slide1.mobile-slide-selected span::before {
+  content: '';
+}
+
+/* TARJETA 4 */
+
+#slide4.mobile-slide-notSelected p::before {
+  content: 'La Sociedad Rural Argentina (SRA) está tomando medidas legales para impugnar la ley aprobada por la Legislatura de Misiones en junio, que prohíbe';
+}
+
+#slide4 span::before {
+  content: '...mas';
+}
+
+#slide4.mobile-slide-selected p::before {
+  content: 'La Sociedad Rural Argentina (SRA) está tomando medidas legales para impugnar la ley aprobada por la Legislatura de Misiones en junio, que prohíbe el uso del glifosato en los campos de esa provincia a partir de 2025.El presidente de la SRA, Nicolás Pino, anunció esta acción durante una reunión con líderes del sector agropecuario y forestal de Misiones y Corrientes en la Confederación Económica de Misiones (CEM). Acompañado por el director del Distrito 8 de la SRA, Gabriel Montiel, Pino se reunió con directores, delegados y socios de la entidad para abordar diversos temas de la agenda rural actual a nivel provincial, regional y nacional. En particular, la Ley de Promoción de Bioinsumos prohíbe el uso del glifosato en su Artículo 7, y esta restricción entrará en vigencia dos años después de su publicación en el Boletín Oficial. La decisión de Misiones de prohibir el glifosato generó críticas tanto de la Mesa de Enlace como de federaciones y asociaciones rurales de todo el país. También llevó a productores a enviar una carta al gobernador solicitando que vete la normativa. La SRA, en su esfuerzo por representar los intereses de los productores y promover un diálogo constructivo, ha decidido buscar una solución a través de la vía legal en medio de esta controversia en torno al uso del glifosato en Misiones.';
+}
+
+#slide1.mobile-slide-selected span::before {
+  content: '';
+}
+
+/* TARJETA 5 */
+
+#slide5.mobile-slide-notSelected p::before {
+  content: 'La Fundación Campo Limpio inició su labor de recuperación de envases vacíos de fitosanitarios en 2019 a través de sus Centros de Almacenamiento';
+}
+
+#slide5 span::before {
+  content: '...mas';
+}
+
+#slide5.mobile-slide-selected p::before {
+  content: 'La Fundación Campo Limpio inició su labor de recuperación de envases vacíos de fitosanitarios en 2019 a través de sus Centros de Almacenamiento Transitorios (CAT), que están distribuidos en todo el país.  Este sistema se ha expandido a lo largo de todas las provincias, con CATs en 13 jurisdicciones. En los cuatro años desde el inicio del programa, se han recuperado aproximadamente nueve millones de kilos de plástico. Además, se ha observado un crecimiento constante a medida que más productores se unen a esta iniciativa.  El director de la fundación señaló que a nivel nacional, actualmente participan en el programa Campo Limpio alrededor de 15.000 productores. En solo un año, el programa ha ampliado su alcance territorial y ha aumentado la cantidad de material recuperado. Este crecimiento refleja el creciente interés de productores, tanto pequeños como grandes, en mantener sus campos limpios y contribuir a la sustentabilidad ambiental a través de la recuperación de envases vacíos de fitosanitarios.';
+}
+
+#slide1.mobile-slide-selected span::before {
+  content: '';
+}
+
+/* TARJETA 6 */
+
+#slide6.mobile-slide-notSelected p::before {
+  content: 'El jueves 31 de agosto marcó el fin de la vigencia formal del denominado "dólar agro", una medida gubernamental implementada en abril con el ';
+}
+
+#slide6 span::before {
+  content: '...mas';
+}
+
+#slide6.mobile-slide-selected p::before {
+  content: 'El jueves 31 de agosto marcó el fin de la vigencia formal del denominado "dólar agro", una medida gubernamental implementada en abril con el objetivo de incentivar las exportaciones de productos de las economías regionales. A pesar de que este tipo de cambio diferencial perdió relevancia después de la devaluación del tipo de cambio oficial, que lo llevó a $350, en comparación con la última cotización del "dólar agro" de $340, la fecha límite para su aplicación ha llegado. Mientras tanto, la Cámara de la Industria Aceitera de la República Argentina (CIARA) y el Centro de Exportadores de Cereales (CEC) han publicado su informe mensual sobre la liquidación de divisas, revelando una continua caída en las contribuciones de divisas por parte del sector agropecuario. Esto ocurre a pesar del alivio que proporcionó la introducción del "dólar maíz". En agosto, las empresas exportadoras de granos y subproductos, que representan casi la mitad de las exportaciones totales de Argentina, registraron ingresos por un total de U$S 1.746 millones. Este valor representa una disminución del 48% en comparación con los U$S 3.387,8 millones del mismo mes del año anterior, y también una caída del 9% en relación a los resultados de julio. Estos cambios en la liquidación de divisas reflejan la volatilidad y los desafíos que enfrenta actualmente el sector agropecuario en Argentina.';
+}
+
+#slide1.mobile-slide-selected span::before {
+  content: '';
+}
+
+/* TARJETA 7 */
+
+#slide7.mobile-slide-notSelected p::before {
+  content: 'En un acontecimiento histórico, la productora Andrea Passerini ha prevalecido en un juicio contra el municipio bonaerense de Carlos Casares';
+}
+
+#slide7 span::before {
+  content: '...mas';
+}
+
+#slide7.mobile-slide-selected p::before {
+  content: 'En un acontecimiento histórico, la productora Andrea Passerini ha prevalecido en un juicio contra el municipio bonaerense de Carlos Casares debido a la falta de prestación de un servicio de mantenimiento de caminos. Esta decisión judicial, ahora firme, impone la obligación al municipio de devolver una tasa que había sido cobrada de manera ilegal, y por lo tanto, inconstitucional. El fallo de la Cámara de San Martín, en segunda instancia, ha sido contundente en su declaración de ilegalidad en el cobro de las tasas Vial y de Seguridad e Higiene por parte del municipio de Carlos Casares. Después de siete años de incansable lucha por la justicia debido a la falta de prestación de servicios, Andrea Passerini, tambera y parte demandante del caso, expresó su satisfacción. No solo ha ganado el caso a nivel personal, sino que también ha sentado un importante precedente. Passerini destacó la relevancia de este precedente, señalando que el municipio no pudo demostrar adecuadamente que proporcionaba el servicio de mantenimiento de caminos. Además de ser una victoria personal, este caso marca un hito significativo para otros productores y ciudadanos que enfrentan circunstancias similares en relación a tasas municipales cuestionables.';
+}
+
+#slide1.mobile-slide-selected span::before {
+  content: '';
+}
+
+/* TARJETA 8 */
+
+#slide8.mobile-slide-notSelected p::before {
+  content: 'Tras las explicaciones brindadas por el secretario de Agricultura, Juan José Bahillo, en relación a las recientes medidas anunciadas por el';
+}
+
+#slide8 span::before {
+  content: '...mas';
+}
+
+#slide8.mobile-slide-selected p::before {
+  content: 'Tras las explicaciones brindadas por el secretario de Agricultura, Juan José Bahillo, en relación a las recientes medidas anunciadas por el ministro de Economía y candidato presidencial de Unión por la Patria, Sergio Massa, el presidente de la Sociedad Rural Argentina (SRA), Nicolás Pino, ha expresado su escepticismo respecto a estas medidas, señalando que parecen tener un carácter más electoralista que un enfoque en el fortalecimiento del sector agrícola. Pino sostiene que aún persiste la falta de claridad en cuanto a las iniciativas presentadas por el Gobierno. Afirmó: "Pero nos queda claro que en el caso de la soja, los beneficios van a ser solo para la industria". En el contexto de estas declaraciones, se destaca la medida propuesta por Massa en relación a la soja, a través del Programa Incremento Exportador (PIE). Esta medida tiene como objetivo destinar el 25% de las divisas para que la industria compre soja en un momento en que los productores enfrentan una disminución en la oferta debido a la sequía. Se ha planteado un esquema de precios que oscilará entre el tipo de cambio oficial y el tipo de cambio CCL, con un 75% aportado por el exportador y un 25% por el Estado. Como resultado, se espera que el precio por tonelada de soja se sitúe entre los $125,000 y $150,000.';
+}
+
+#slide1.mobile-slide-selected span::before {
+  content: '';
+}
+
+/* TARJETA 9 */
+
+#slide9.mobile-slide-notSelected p::before {
+  content: 'La comunidad científica agrícola está de luto por la partida de Hilda Buck, una destacada investigadora en el ámbito del mejoramiento de semillas';
+}
+
+#slide9 span::before {
+  content: '...mas';
+}
+
+#slide9.mobile-slide-selected p::before {
+  content: 'La comunidad científica agrícola está de luto por la partida de Hilda Buck, una destacada investigadora en el ámbito del mejoramiento de semillas de trigo y otros cultivos, quien falleció a la edad de 76 años. Hilda Buck, licenciada en Ciencias Biológicas con especialización en Genética Vegetal, dedicó décadas de su vida a la investigación y mejora de las semillas de trigo y otros cultivos. Su trabajo y contribuciones en este campo fueron altamente reconocidos en la comunidad científica. Nacida en 1946, Hilda Buck era la menor de cinco hijos de José Buck, un inmigrante alemán que llegó a Argentina en 1925, buscando oportunidades en un país promocionado por el gobierno nacional en Europa. En su búsqueda de independencia, José Buck arrendó 300 hectáreas de tierra en Defferrari (Necochea), donde desarrolló un programa propio de mejora de semillas. Además de su trabajo en investigación, Hilda Buck desempeñó un papel activo en diversas asociaciones relacionadas con la agricultura, incluyendo la Asociación Argentina Productores de Trigo (Aapotrigo), Argentrigo, y la Asociación Argentina de Protección de las Obtenciones Vegetales (Arpov). Asimismo, fue parte de un grupo de auditores internacionales que en 2004 realizaron una auditoría externa de la actividad de mejora de semillas de trigo en el Centro Internacional de Mejoramiento de Maíz y Trigo. Durante esta auditoría, Hilda Buck reveló una deuda de Argentina que ascendía a varios miles de dólares, una deuda que finalmente no pudo ser recuperada. La partida de Hilda Buck representa una pérdida significativa para la comunidad científica agrícola, pero su legado perdurará en su contribución al mejoramiento de los cultivos y su dedicación al avance de la agricultura en Argentina.';
+}
+
+#slide1.mobile-slide-selected span::before {
+  content: '';
+}
+
+/* ESTILO DE LA NOTICIA DESPLEGADA */
+
+.carousel .mobile-slide-selected:first-child  {
+  margin-left: 0;
+  
+}
+
+.mobile-slide-selected {
+  position: absolute;
+  z-index: 5;
+
+  width: 425px;
+  height: 1500px;
+
+  background-color: #ffffff;
+
+  transition: all 100ms;
+
+}
+
+.mobile-slide-selected .slide-img {
+  width: 100%;
+}
