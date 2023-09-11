@@ -32,7 +32,7 @@
 
     cursor: pointer;
 
-    background-image: url(./ICO/Group\ negro.svg);
+    background-image: url(/Rodamientos-Norte/ICO/Group\ negro.svg);
     background-size: cover;
 
     transition: 1s;
@@ -54,7 +54,7 @@
 } */
 
 .header {
-    background-image: url(./Pictures/Rectangle\ 9\ \(1\).png);
+    background-image: url(/Rodamientos-Norte/Pictures/Rectangle\ 9\ \(1\).png);
     background-size: cover;
     height: 180px;
 
@@ -100,7 +100,7 @@
     width: 40%;
     height: 400PX;
 
-    background-image: url(./Pictures/ezgif\ 2.png);
+    background-image: url(/Rodamientos-Norte/Pictures/ezgif\ 2.png);
     background-size: cover;
 }
 
