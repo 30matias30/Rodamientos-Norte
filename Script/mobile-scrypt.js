@@ -4,7 +4,7 @@ mobileSlide.forEach( m => {
     m.addEventListener('click', function() {
         const url = m.getAttribute('data-url');
         switch(url) {
-            case 'Noticias/MobileNews-1.html':
+            case url:
                 window.location.href = url;
                 break;
 
@@ -47,5 +47,5 @@ mobileSlide.forEach( m => {
 const icon = document.getElementById('icon');
 
 icon.addEventListener('click', ()=> {
-    window.alert('HOLA?');
+    window.location = '/Rodamientos-Norte/index.html';
 })
