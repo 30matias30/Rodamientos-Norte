@@ -47,19 +47,19 @@ optionButton.forEach( div => {
     div.addEventListener("click", function() {
         const url = div.getAttribute("data-url");
         switch (url) {
-            case "./index.html":
+            case "../index.html":
                 window.location.href = url;
                 break;
-            case "./productos.html":
+            case "../productos.html":
                 window.location.href = url;
                 break
-            case "./institucional.html":
+            case "../institucional.html":
                 window.location.href = url;
                 break;
-            case "./catalogos.html":
+            case "../catalogos.html":
                 window.location.href = url;
                 break;
-            case "./contacto.html":
+            case "../contacto.html":
                 window.location.href = url;
                 break;
             case "sideBar":
