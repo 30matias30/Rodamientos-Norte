@@ -396,7 +396,9 @@ body {
   text-align: center;
 
   height: 50px;
-  margin: 10px 0 0 0;
+  margin: 10px 0 10px 0px;
+
+  background-color: var(--bordo);
 }
 
 .options-footer a {
@@ -772,7 +774,7 @@ h3 {
   width: fit-content;
   height: fit-content;
   position: absolute;
-  top: 31%; /* Centra verticalmente */
+  top: 35%; /* Centra verticalmente */
   left: -100px; /* Inicialmente, fuera de la pantalla a la izquierda */
   animation: slide-from-left 2s ease-in-out forwards; /* Aplica la animación */
 
