@@ -70,7 +70,7 @@ optionButton.forEach( div => {
                 window.alert("URL no válida");
         }
     })
-})
+});
 
 const closeBtn = document.querySelector('.close-btn');
 

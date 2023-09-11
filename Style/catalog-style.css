@@ -88,39 +88,39 @@
 /* IMAGENES DL CATALOGO */
 
 #catalog-one {
-    background-image: url(./Pictures/Catalogo/Catalogo01.png) ;
+    background-image: url(/Pictures/Catalogo/Catalogo01.png) ;
 }
 
 #catalog-two {
-    background-image: url(./Pictures/Catalogo/Catalogo02.png) ;
+    background-image: url(/Pictures/Catalogo/Catalogo02.png) ;
 }
 
 #catalog-three {
-    background-image: url(./Pictures/Catalogo/Catalogo03.png) ;
+    background-image: url(/Pictures/Catalogo/Catalogo03.png) ;
 }
 
 #catalog-four {
-    background-image: url(./Pictures/Catalogo/Catalogo04.png) ;
+    background-image: url(/Pictures/Catalogo/Catalogo04.png) ;
 }
 
 #catalog-five {
-    background-image: url(./Pictures/Catalogo/Catalogo05.png) ;
+    background-image: url(/Pictures/Catalogo/Catalogo05.png) ;
 }
 
 #catalog-six {
-    background-image: url(./Pictures/Catalogo/Catalogo06.png) ;
+    background-image: url(/Pictures/Catalogo/Catalogo06.png) ;
 }
 
 #catalog-seven {
-    background-image: url(./Pictures/Catalogo/Catalogo07.png) ;
+    background-image: url(/Pictures/Catalogo/Catalogo07.png) ;
 }
 
 #catalog-eight {
-    background-image: url(./Pictures/Catalogo/Catalogo08.png) ;
+    background-image: url(/Pictures/Catalogo/Catalogo08.png) ;
 }
 
 #catalog-nine {
-    background-image: url(./Pictures/Catalogo/Catalogo09.png) ;
+    background-image: url(/Pictures/Catalogo/Catalogo09.png) ;
 }
 
 @media screen and (min-width: 375px) and (max-width: 1023px) {
