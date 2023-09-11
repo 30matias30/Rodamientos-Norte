@@ -22,12 +22,12 @@ body {
 }
 
 .header {
-    background-image: url(/Pictures/Rectangle\ 9\ \(1\).png);
+    background-image: url(./Pictures/Rectangle\ 9\ \(1\).png);
     transition: 3s;
 
 }
 .secondHeader {
-    background-image: url(/Pictures/Rectangle\ 9\ \(1\)\ \(copia\).png);
+    background-image: url(./Pictures/Rectangle\ 9\ \(1\)\ \(copia\).png);
     transition: 3s;
 }
 
@@ -41,7 +41,7 @@ body {
 
     cursor: pointer;
 
-    background-image: url(/ICO/Group\ blanco.svg);
+    background-image: url(./ICO/Group\ blanco.svg);
     background-size: cover;
 
     transition: 1s;
@@ -397,7 +397,7 @@ a {
 }
 
 .icon-footer {
-    background-image: url(/ICO/LOGO\ RODAMIENTOS\ NORTE\ blanco-03.svg);
+    background-image: url(./ICO/LOGO\ RODAMIENTOS\ NORTE\ blanco-03.svg);
 
     width: 400px;
     height: 250px;

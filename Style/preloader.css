@@ -1,5 +1,5 @@
 #preloader {
-    background: url(/Pictures/Desktop\ -\ Blanco.png) no-repeat;
+    background: url(./Pictures/Desktop\ -\ Blanco.png) no-repeat;
     background-size: cover;
 
     transition-duration: 2s;
@@ -21,7 +21,7 @@
 }
 
 #preloaderLogo {
-    background: url(/Pictures/Desktop\ -\ 47.png) center;
+    background: url(./Pictures/Desktop\ -\ 47.png) center;
     background-size: cover;
 
     transition-duration: 1s;
