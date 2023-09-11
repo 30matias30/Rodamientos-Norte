@@ -47,7 +47,11 @@ optionButton.forEach( div => {
     div.addEventListener("click", function() {
         const url = div.getAttribute("data-url");
         switch (url) {
-            case "../index.html":
+            case "sideBar":
+                sideBar.classList.toggle('actived'); //Funcion para desplegar el Side Bar Menu
+                blur();
+                break;
+            case url:
                 window.location.href = url;
                 break;
             case "../productos.html":
@@ -61,10 +65,6 @@ optionButton.forEach( div => {
                 break;
             case "../contacto.html":
                 window.location.href = url;
-                break;
-            case "sideBar":
-                sideBar.classList.toggle('actived'); //Funcion para desplegar el Side Bar Menu
-                blur();
                 break;
             default:
                 window.alert("URL no válida");
