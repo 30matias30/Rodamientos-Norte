@@ -1,8 +1,12 @@
-const mobileDiv = document.querySelector('#slide1');
+// Boton de cierre de la Notcia Expandida
+const closeNewBtn = document.querySelector('#closeNewBtn');
+const fullNew = document.querySelector('#fullNew');
 
-mobileDiv.addEventListener('click', () => {
+closeNewBtn.addEventListener('click', () => {
 
-    mobileDiv.classList.remove('mobile-slide-notSelected');
-    mobileDiv.classList.add('mobile-slide-selected');
+    fullNew.classList.remove('expanded');
+    fullNew.classList.add('noExpanded');
 
 });
+
+// Primer Noticia
