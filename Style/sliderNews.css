@@ -39,7 +39,11 @@
 
 .pictureHolder {
   width: 100%;
-  height: 70%;
+  height: 305px;
+
+  box-shadow: 0px 5px 10px 0px #00000040;
+
+  margin-bottom: 30px;
 
   border-radius: 2%;
 }
@@ -54,63 +58,63 @@
 }
 
 .ima1 {
-    background: url(/Rodamientos-Norte/Pictures/Noticias/Noticia\ 1.jpeg);
+    background: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 01.jpeg);
     background-repeat: no-repeat;
     background-size: 110% 110%;
     background-position: center;
 }
 
 .ima2 {
-    background: url(/Rodamientos-Norte/Pictures/Noticias/Noticia\ 2.jpeg);
+    background: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 02.jpeg);
     background-repeat: no-repeat;
     background-size: 110% 110%;
     background-position: center;
 }
 
 .ima3 {
-    background: url(/Rodamientos-Norte/Pictures/Noticias/Noticia\ 3.jpeg);
+    background: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 03.jpeg);
     background-repeat: no-repeat;
     background-size: 110% 110%;
     background-position: center;
 }
 
 .ima4 {
-    background: url(/Rodamientos-Norte/Pictures/Noticias/Noticia\ 4.jpeg);
+    background: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 04.jpeg);
     background-repeat: no-repeat;
     background-size: 110% 110%;
     background-position: center;
 }
 
 .ima5 {
-    background: url(/Rodamientos-Norte/Pictures/Noticias/Noticia\ 5.jpeg);
+    background: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 05.jpeg);
     background-repeat: no-repeat;
     background-size: 110% 110%;
     background-position: center;
 }
 
 .ima6 {
-    background: url(/Rodamientos-Norte/Pictures/Noticias/Noticia\ 6.jpeg);
+    background: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 06.jpeg);
     background-repeat: no-repeat;
     background-size: 110% 110%;
     background-position: center;
 }
 
 .ima7 {
-    background: url(/Rodamientos-Norte/Pictures/Noticias/Noticia\ 7.jpeg);
+    background: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 07.jpeg);
     background-repeat: no-repeat;
     background-size: 110% 110%;
     background-position: center;
 }
 
 .ima8 {
-    background: url(/Rodamientos-Norte/Pictures/Noticias/Noticia\ 8.jpg);
+    background: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 08.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .ima9 {
-    background: url(/Rodamientos-Norte/Pictures/Noticias/Noticia\ 9.jpg);
+    background: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 09.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -131,39 +135,39 @@ h2 {
 }
 
 .text1::before {
-    content: "¡Gran inauguración! Visítanos en Rodamientos Norte y descubre nuestras últimas ofertas en rodamientos y componentes industriales. ¡Te esperamos! ";
+    content: "La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año.";
 }
 
 .text2::before {
-    content: "Nos enorgullece anunciar que Rodamientos Norte ha obtenido la certificación ISO 9001:2015, garantizando la calidad y confiabilidad de nuestros productos y servicios. ";
+    content: "La economía argentina enfrenta desafíos en la actualidad. La volatilidad cambiaria y la inflación impactan en diversos sectores, incluida la industria. La incertidumbre económica ha llevado a un ajuste en la producción industrial,";
 }
 
 .text3::before {
-    content: "Nueva línea de productos: presentamos nuestra colección de rodamientos de alta precisión, ideales para aplicaciones industriales exigentes. Conoce más en nuestro sitio web";
-}
+    content: 'En la reciente edición de "Experiencia Agroindustria 2023", organizada por el Instituto para el Desarrollo Empresarial de la Argentina (IDEA), se reunieron alrededor de 350 asistentes vinculados al sector agroindustrial en Rosario.';
+  }
 
 .text4::before {
-    content: "Descuento especial por tiempo limitado! Aprovecha nuestra promoción del mes y obtén un 20% de descuento en rodamientos seleccionados. ¡No te lo pierdas! ";
+    content: 'La Sociedad Rural Argentina (SRA) está tomando medidas legales para impugnar la ley aprobada por la Legislatura de Misiones en junio, que prohíbe el uso del glifosato en los campos de esa provincia a partir de 2025.';
 }
 
 .text5::before {
-    content: "Rodamientos Norte participará en la próxima feria industrial. Visítanos en nuestro stand para conocer nuestras soluciones de rodamientos y establecer nuevas alianzas comerciales ";
+    content: 'La Fundación Campo Limpio inició su labor de recuperación de envases vacíos de fitosanitarios en 2019 a través de sus Centros de Almacenamiento Transitorios (CAT), que están distribuidos en todo el país.';
 }
 
 .text6::before {
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam";
+    content: 'El jueves 31 de agosto marcó el fin de la vigencia formal del denominado "dólar agro", una medida gubernamental implementada en abril con el objetivo de incentivar las exportaciones de productos de las economías regionales.';
 }
 
 .text7::before {
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam";
+    content: 'En un acontecimiento histórico, la productora Andrea Passerini ha prevalecido en un juicio contra el municipio bonaerense de Carlos Casares debido a la falta de prestación de un servicio de mantenimiento de caminos.';
 }
 
 .text8::before {
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam";
+    content: 'Tras las explicaciones brindadas por el secretario de Agricultura, Juan José Bahillo, en relación a las recientes medidas anunciadas por el ministro de Economía y candidato presidencial de Unión por la Patria, Sergio Massa,';
 }
 
 .text9::before {
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam";
+    content: 'La comunidad científica agrícola está de luto por la partida de Hilda Buck, una destacada investigadora en el ámbito del mejoramiento de semillas de trigo y otros cultivos, quien falleció a la edad de 76 años.    ';
 }
 
 
