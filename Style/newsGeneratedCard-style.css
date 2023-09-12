@@ -1,0 +1,125 @@
+/*NOTICIA N°1 */
+
+.newsImg1 {
+    background-image: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 01.jpeg);
+}
+
+.newsTitle1::before {
+    content: 'Sequía en Argentina: Impacto en el Sector Agrícola';
+}
+
+.newsText1::before {
+    content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año. Esta reducción en la producción se debe a la falta de precipitaciones y las condiciones climáticas desafiantes. \a\a  La incertidumbre se ha visto exacerbada por los cambios en la política gubernamental, incluidas las fluctuaciones cambiarias y los Derechos de Exportación. Estos factores han contribuido a la dificultad que enfrentan los agricultores en la producción y en las actividades relacionadas, como el transporte y el uso de combustibles. Además, la mano de obra también se ha visto afectada por esta disminución en la producción. \a\a  La merma en la producción no solo afecta a los agricultores, sino que también tiene un impacto en la recaudación del Estado provincial. Dado que muchas actividades derivadas de la producción agrícola están sujetas a impuestos como los Ingresos Brutos, la disminución en la producción tiene un efecto directo en los ingresos del gobierno provincial. \a\a Aunque se han implementado algunas medidas de emergencia por parte del gobierno provincial, los agricultores consideran que estas medidas son insuficientes para abordar las necesidades actuales. Aunque la declaración de emergencia brinda cierta tranquilidad en términos de recursos financieros, las ayudas económicas específicas no han sido adecuadas para enfrentar los desafíos que enfrentan los agricultores en la realidad actual. \a\a  Se espera que las consecuencias de esta sequía se sientan a largo plazo, ya que las actividades agrícolas y sus efectos económicos tienden a ser procesos más lentos. Dado que el sector agrícola es un importante contribuyente a las reservas de divisas del país, se plantea la necesidad de una reconversión en el enfoque de trabajo para enfrentar los desafíos presentes y futuros. \a\a  En resumen, la sequía en Argentina ha tenido un impacto significativo en la producción agrícola y las actividades relacionadas en la provincia. Las condiciones climáticas adversas y los factores políticos han contribuido a una disminución en la producción, lo que a su vez afecta a la economía provincial y a largo plazo requerirá adaptación y soluciones.';
+}
+
+/*NOTICIA N°2 */
+
+.newsImg2 {
+    background-image: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 02.jpeg);
+}
+
+.newsTitle2::before {
+    content: 'Sequía en Argentina: Impacto en el Sector Agrícola';
+}
+
+.newsText2::before {
+    content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año. Esta reducción en la producción se debe a la falta de precipitaciones y las condiciones climáticas desafiantes. \a\a  La incertidumbre se ha visto exacerbada por los cambios en la política gubernamental, incluidas las fluctuaciones cambiarias y los Derechos de Exportación. Estos factores han contribuido a la dificultad que enfrentan los agricultores en la producción y en las actividades relacionadas, como el transporte y el uso de combustibles. Además, la mano de obra también se ha visto afectada por esta disminución en la producción. \a\a  La merma en la producción no solo afecta a los agricultores, sino que también tiene un impacto en la recaudación del Estado provincial. Dado que muchas actividades derivadas de la producción agrícola están sujetas a impuestos como los Ingresos Brutos, la disminución en la producción tiene un efecto directo en los ingresos del gobierno provincial. \a\a Aunque se han implementado algunas medidas de emergencia por parte del gobierno provincial, los agricultores consideran que estas medidas son insuficientes para abordar las necesidades actuales. Aunque la declaración de emergencia brinda cierta tranquilidad en términos de recursos financieros, las ayudas económicas específicas no han sido adecuadas para enfrentar los desafíos que enfrentan los agricultores en la realidad actual. \a\a  Se espera que las consecuencias de esta sequía se sientan a largo plazo, ya que las actividades agrícolas y sus efectos económicos tienden a ser procesos más lentos. Dado que el sector agrícola es un importante contribuyente a las reservas de divisas del país, se plantea la necesidad de una reconversión en el enfoque de trabajo para enfrentar los desafíos presentes y futuros. \a\a  En resumen, la sequía en Argentina ha tenido un impacto significativo en la producción agrícola y las actividades relacionadas en la provincia. Las condiciones climáticas adversas y los factores políticos han contribuido a una disminución en la producción, lo que a su vez afecta a la economía provincial y a largo plazo requerirá adaptación y soluciones.';
+}
+
+/*NOTICIA N°3 */
+
+.newsImg3 {
+    background-image: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 03.jpeg);
+}
+
+.newsTitle3::before {
+    content: 'Sequía en Argentina: Impacto en el Sector Agrícola';
+}
+
+.newsText3::before {
+    content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año. Esta reducción en la producción se debe a la falta de precipitaciones y las condiciones climáticas desafiantes. \a\a  La incertidumbre se ha visto exacerbada por los cambios en la política gubernamental, incluidas las fluctuaciones cambiarias y los Derechos de Exportación. Estos factores han contribuido a la dificultad que enfrentan los agricultores en la producción y en las actividades relacionadas, como el transporte y el uso de combustibles. Además, la mano de obra también se ha visto afectada por esta disminución en la producción. \a\a  La merma en la producción no solo afecta a los agricultores, sino que también tiene un impacto en la recaudación del Estado provincial. Dado que muchas actividades derivadas de la producción agrícola están sujetas a impuestos como los Ingresos Brutos, la disminución en la producción tiene un efecto directo en los ingresos del gobierno provincial. \a\a Aunque se han implementado algunas medidas de emergencia por parte del gobierno provincial, los agricultores consideran que estas medidas son insuficientes para abordar las necesidades actuales. Aunque la declaración de emergencia brinda cierta tranquilidad en términos de recursos financieros, las ayudas económicas específicas no han sido adecuadas para enfrentar los desafíos que enfrentan los agricultores en la realidad actual. \a\a  Se espera que las consecuencias de esta sequía se sientan a largo plazo, ya que las actividades agrícolas y sus efectos económicos tienden a ser procesos más lentos. Dado que el sector agrícola es un importante contribuyente a las reservas de divisas del país, se plantea la necesidad de una reconversión en el enfoque de trabajo para enfrentar los desafíos presentes y futuros. \a\a  En resumen, la sequía en Argentina ha tenido un impacto significativo en la producción agrícola y las actividades relacionadas en la provincia. Las condiciones climáticas adversas y los factores políticos han contribuido a una disminución en la producción, lo que a su vez afecta a la economía provincial y a largo plazo requerirá adaptación y soluciones.';
+}
+
+/*NOTICIA N°4 */
+
+.newsImg4 {
+    background-image: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 04.jpeg);
+}
+
+.newsTitle4::before {
+    content: 'Sequía en Argentina: Impacto en el Sector Agrícola';
+}
+
+.newsText4::before {
+    content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año. Esta reducción en la producción se debe a la falta de precipitaciones y las condiciones climáticas desafiantes. \a\a  La incertidumbre se ha visto exacerbada por los cambios en la política gubernamental, incluidas las fluctuaciones cambiarias y los Derechos de Exportación. Estos factores han contribuido a la dificultad que enfrentan los agricultores en la producción y en las actividades relacionadas, como el transporte y el uso de combustibles. Además, la mano de obra también se ha visto afectada por esta disminución en la producción. \a\a  La merma en la producción no solo afecta a los agricultores, sino que también tiene un impacto en la recaudación del Estado provincial. Dado que muchas actividades derivadas de la producción agrícola están sujetas a impuestos como los Ingresos Brutos, la disminución en la producción tiene un efecto directo en los ingresos del gobierno provincial. \a\a Aunque se han implementado algunas medidas de emergencia por parte del gobierno provincial, los agricultores consideran que estas medidas son insuficientes para abordar las necesidades actuales. Aunque la declaración de emergencia brinda cierta tranquilidad en términos de recursos financieros, las ayudas económicas específicas no han sido adecuadas para enfrentar los desafíos que enfrentan los agricultores en la realidad actual. \a\a  Se espera que las consecuencias de esta sequía se sientan a largo plazo, ya que las actividades agrícolas y sus efectos económicos tienden a ser procesos más lentos. Dado que el sector agrícola es un importante contribuyente a las reservas de divisas del país, se plantea la necesidad de una reconversión en el enfoque de trabajo para enfrentar los desafíos presentes y futuros. \a\a  En resumen, la sequía en Argentina ha tenido un impacto significativo en la producción agrícola y las actividades relacionadas en la provincia. Las condiciones climáticas adversas y los factores políticos han contribuido a una disminución en la producción, lo que a su vez afecta a la economía provincial y a largo plazo requerirá adaptación y soluciones.';
+}
+
+/*NOTICIA N°5 */
+
+.newsImg5 {
+    background-image: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 05.jpeg);
+}
+
+.newsTitle5::before {
+    content: 'Sequía en Argentina: Impacto en el Sector Agrícola';
+}
+
+.newsText5::before {
+    content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año. Esta reducción en la producción se debe a la falta de precipitaciones y las condiciones climáticas desafiantes. \a\a  La incertidumbre se ha visto exacerbada por los cambios en la política gubernamental, incluidas las fluctuaciones cambiarias y los Derechos de Exportación. Estos factores han contribuido a la dificultad que enfrentan los agricultores en la producción y en las actividades relacionadas, como el transporte y el uso de combustibles. Además, la mano de obra también se ha visto afectada por esta disminución en la producción. \a\a  La merma en la producción no solo afecta a los agricultores, sino que también tiene un impacto en la recaudación del Estado provincial. Dado que muchas actividades derivadas de la producción agrícola están sujetas a impuestos como los Ingresos Brutos, la disminución en la producción tiene un efecto directo en los ingresos del gobierno provincial. \a\a Aunque se han implementado algunas medidas de emergencia por parte del gobierno provincial, los agricultores consideran que estas medidas son insuficientes para abordar las necesidades actuales. Aunque la declaración de emergencia brinda cierta tranquilidad en términos de recursos financieros, las ayudas económicas específicas no han sido adecuadas para enfrentar los desafíos que enfrentan los agricultores en la realidad actual. \a\a  Se espera que las consecuencias de esta sequía se sientan a largo plazo, ya que las actividades agrícolas y sus efectos económicos tienden a ser procesos más lentos. Dado que el sector agrícola es un importante contribuyente a las reservas de divisas del país, se plantea la necesidad de una reconversión en el enfoque de trabajo para enfrentar los desafíos presentes y futuros. \a\a  En resumen, la sequía en Argentina ha tenido un impacto significativo en la producción agrícola y las actividades relacionadas en la provincia. Las condiciones climáticas adversas y los factores políticos han contribuido a una disminución en la producción, lo que a su vez afecta a la economía provincial y a largo plazo requerirá adaptación y soluciones.';
+}
+
+/*NOTICIA N°6 */
+
+.newsImg6 {
+    background-image: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 06.jpeg);
+}
+
+.newsTitle6::before {
+    content: 'Sequía en Argentina: Impacto en el Sector Agrícola';
+}
+
+.newsText6::before {
+    content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año. Esta reducción en la producción se debe a la falta de precipitaciones y las condiciones climáticas desafiantes. \a\a  La incertidumbre se ha visto exacerbada por los cambios en la política gubernamental, incluidas las fluctuaciones cambiarias y los Derechos de Exportación. Estos factores han contribuido a la dificultad que enfrentan los agricultores en la producción y en las actividades relacionadas, como el transporte y el uso de combustibles. Además, la mano de obra también se ha visto afectada por esta disminución en la producción. \a\a  La merma en la producción no solo afecta a los agricultores, sino que también tiene un impacto en la recaudación del Estado provincial. Dado que muchas actividades derivadas de la producción agrícola están sujetas a impuestos como los Ingresos Brutos, la disminución en la producción tiene un efecto directo en los ingresos del gobierno provincial. \a\a Aunque se han implementado algunas medidas de emergencia por parte del gobierno provincial, los agricultores consideran que estas medidas son insuficientes para abordar las necesidades actuales. Aunque la declaración de emergencia brinda cierta tranquilidad en términos de recursos financieros, las ayudas económicas específicas no han sido adecuadas para enfrentar los desafíos que enfrentan los agricultores en la realidad actual. \a\a  Se espera que las consecuencias de esta sequía se sientan a largo plazo, ya que las actividades agrícolas y sus efectos económicos tienden a ser procesos más lentos. Dado que el sector agrícola es un importante contribuyente a las reservas de divisas del país, se plantea la necesidad de una reconversión en el enfoque de trabajo para enfrentar los desafíos presentes y futuros. \a\a  En resumen, la sequía en Argentina ha tenido un impacto significativo en la producción agrícola y las actividades relacionadas en la provincia. Las condiciones climáticas adversas y los factores políticos han contribuido a una disminución en la producción, lo que a su vez afecta a la economía provincial y a largo plazo requerirá adaptación y soluciones.';
+}
+
+/*NOTICIA N°7 */
+
+.newsImg7 {
+    background-image: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 07.jpeg);
+}
+
+.newsTitle7::before {
+    content: 'Sequía en Argentina: Impacto en el Sector Agrícola';
+}
+
+.newsText7::before {
+    content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año. Esta reducción en la producción se debe a la falta de precipitaciones y las condiciones climáticas desafiantes. \a\a  La incertidumbre se ha visto exacerbada por los cambios en la política gubernamental, incluidas las fluctuaciones cambiarias y los Derechos de Exportación. Estos factores han contribuido a la dificultad que enfrentan los agricultores en la producción y en las actividades relacionadas, como el transporte y el uso de combustibles. Además, la mano de obra también se ha visto afectada por esta disminución en la producción. \a\a  La merma en la producción no solo afecta a los agricultores, sino que también tiene un impacto en la recaudación del Estado provincial. Dado que muchas actividades derivadas de la producción agrícola están sujetas a impuestos como los Ingresos Brutos, la disminución en la producción tiene un efecto directo en los ingresos del gobierno provincial. \a\a Aunque se han implementado algunas medidas de emergencia por parte del gobierno provincial, los agricultores consideran que estas medidas son insuficientes para abordar las necesidades actuales. Aunque la declaración de emergencia brinda cierta tranquilidad en términos de recursos financieros, las ayudas económicas específicas no han sido adecuadas para enfrentar los desafíos que enfrentan los agricultores en la realidad actual. \a\a  Se espera que las consecuencias de esta sequía se sientan a largo plazo, ya que las actividades agrícolas y sus efectos económicos tienden a ser procesos más lentos. Dado que el sector agrícola es un importante contribuyente a las reservas de divisas del país, se plantea la necesidad de una reconversión en el enfoque de trabajo para enfrentar los desafíos presentes y futuros. \a\a  En resumen, la sequía en Argentina ha tenido un impacto significativo en la producción agrícola y las actividades relacionadas en la provincia. Las condiciones climáticas adversas y los factores políticos han contribuido a una disminución en la producción, lo que a su vez afecta a la economía provincial y a largo plazo requerirá adaptación y soluciones.';
+}
+
+/*NOTICIA N°8 */
+
+.newsImg8 {
+    background-image: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 08.jpg);
+}
+
+.newsTitle8::before {
+    content: 'Sequía en Argentina: Impacto en el Sector Agrícola';
+}
+
+.newsText8::before {
+    content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año. Esta reducción en la producción se debe a la falta de precipitaciones y las condiciones climáticas desafiantes. \a\a  La incertidumbre se ha visto exacerbada por los cambios en la política gubernamental, incluidas las fluctuaciones cambiarias y los Derechos de Exportación. Estos factores han contribuido a la dificultad que enfrentan los agricultores en la producción y en las actividades relacionadas, como el transporte y el uso de combustibles. Además, la mano de obra también se ha visto afectada por esta disminución en la producción. \a\a  La merma en la producción no solo afecta a los agricultores, sino que también tiene un impacto en la recaudación del Estado provincial. Dado que muchas actividades derivadas de la producción agrícola están sujetas a impuestos como los Ingresos Brutos, la disminución en la producción tiene un efecto directo en los ingresos del gobierno provincial. \a\a Aunque se han implementado algunas medidas de emergencia por parte del gobierno provincial, los agricultores consideran que estas medidas son insuficientes para abordar las necesidades actuales. Aunque la declaración de emergencia brinda cierta tranquilidad en términos de recursos financieros, las ayudas económicas específicas no han sido adecuadas para enfrentar los desafíos que enfrentan los agricultores en la realidad actual. \a\a  Se espera que las consecuencias de esta sequía se sientan a largo plazo, ya que las actividades agrícolas y sus efectos económicos tienden a ser procesos más lentos. Dado que el sector agrícola es un importante contribuyente a las reservas de divisas del país, se plantea la necesidad de una reconversión en el enfoque de trabajo para enfrentar los desafíos presentes y futuros. \a\a  En resumen, la sequía en Argentina ha tenido un impacto significativo en la producción agrícola y las actividades relacionadas en la provincia. Las condiciones climáticas adversas y los factores políticos han contribuido a una disminución en la producción, lo que a su vez afecta a la economía provincial y a largo plazo requerirá adaptación y soluciones.';
+}
+
+/*NOTICIA N°9 */
+
+.newsImg9 {
+    background-image: url(/Rodamientos-Norte/Pictures/Noticias/HTML/Noticia\ 09.jpg);
+}
+
+.newsTitle9::before {
+    content: 'Sequía en Argentina: Impacto en el Sector Agrícola';
+}
+
+.newsText9::before {
+    content: 'La sequía actual en Argentina ha tenido un impacto notable en la producción agrícola de la provincia. Según una declaración de un experto en el campo, se estima que solo alrededor de un tercio de la producción habitual se ha logrado este año. Esta reducción en la producción se debe a la falta de precipitaciones y las condiciones climáticas desafiantes. \a\a  La incertidumbre se ha visto exacerbada por los cambios en la política gubernamental, incluidas las fluctuaciones cambiarias y los Derechos de Exportación. Estos factores han contribuido a la dificultad que enfrentan los agricultores en la producción y en las actividades relacionadas, como el transporte y el uso de combustibles. Además, la mano de obra también se ha visto afectada por esta disminución en la producción. \a\a  La merma en la producción no solo afecta a los agricultores, sino que también tiene un impacto en la recaudación del Estado provincial. Dado que muchas actividades derivadas de la producción agrícola están sujetas a impuestos como los Ingresos Brutos, la disminución en la producción tiene un efecto directo en los ingresos del gobierno provincial. \a\a Aunque se han implementado algunas medidas de emergencia por parte del gobierno provincial, los agricultores consideran que estas medidas son insuficientes para abordar las necesidades actuales. Aunque la declaración de emergencia brinda cierta tranquilidad en términos de recursos financieros, las ayudas económicas específicas no han sido adecuadas para enfrentar los desafíos que enfrentan los agricultores en la realidad actual. \a\a  Se espera que las consecuencias de esta sequía se sientan a largo plazo, ya que las actividades agrícolas y sus efectos económicos tienden a ser procesos más lentos. Dado que el sector agrícola es un importante contribuyente a las reservas de divisas del país, se plantea la necesidad de una reconversión en el enfoque de trabajo para enfrentar los desafíos presentes y futuros. \a\a  En resumen, la sequía en Argentina ha tenido un impacto significativo en la producción agrícola y las actividades relacionadas en la provincia. Las condiciones climáticas adversas y los factores políticos han contribuido a una disminución en la producción, lo que a su vez afecta a la economía provincial y a largo plazo requerirá adaptación y soluciones.';
+}
