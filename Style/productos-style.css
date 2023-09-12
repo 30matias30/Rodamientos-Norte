@@ -76,7 +76,18 @@
     
     margin: 2em;
 
+    position: relative;
 
+}
+
+.fff {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .portfolio-elements-img {
