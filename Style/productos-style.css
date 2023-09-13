@@ -456,7 +456,7 @@
     }
 
     .fff-content {
-        height: auto;
+        max-height: 250px;
     }
 
     .fff-content-title {
@@ -465,6 +465,8 @@
 
     .fff-content-text {
         width: auto;
+
+        overflow: scroll;
     }
 
 }
