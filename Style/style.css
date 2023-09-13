@@ -524,7 +524,7 @@ display: block;
     display: flex;
     flex-flow: column;
 
-    width: 800px;
+    width: 70%;
     height: fit-content;
     background-color: white;
 
@@ -565,7 +565,7 @@ display: block;
     transition: all 0.3s;
 
     position: absolute;
-    left: 90%;
+    left: 95%;
     bottom: 95%;
 
 }
