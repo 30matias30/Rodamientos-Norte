@@ -194,8 +194,6 @@ form div {
 form div:nth-child(3) {
     display: flex;
 
-    justify-content: space-between;
-    padding: 3px;
 }
 
 input {
@@ -253,6 +251,8 @@ textarea::placeholder {
     border-radius: 10px;
     border: 1.5px solid #00470F;
     background-color: #F5F4F3;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 #contact-form-btn {
