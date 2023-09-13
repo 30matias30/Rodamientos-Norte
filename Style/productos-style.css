@@ -81,13 +81,102 @@
 }
 
 .fff {
+    width: 800px;
+    height: 330px;
+
+
     position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: rebeccapurple;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    box-shadow: 9px -9px 17px 0px #00000040, -9px 9px 17px 0px #00000040;
+    background-color: white;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 2;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-color: #EAE9E8;
+
+    width: 44px;
+    height: 32px;
+    border-radius: 0px 20px 0px 0px;
+    
+    cursor: pointer;
+}
+
+
+.x1,.x2 {
+    position: absolute;
+    width: 40%;
+    height: 3px;
+    background-color: var(--verdeOscuro);
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%) rotate(-45deg);
+
+}
+
+.x2 {
+    transform: translateY(-50%) rotate(45deg);
+}
+
+
+.fff-img {
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+
+    background-image: url(/Rodamientos-Norte/Pictures/Productos/Cards/Rectangle\ 103.jpg);
+    background-size: 110% 110%;
+    background-position: center;
+
+    box-shadow: 0px 4px 4px 0px #00000040, 4px 0px 4px 0px #00000040;
+    margin-right: -5px;
+    margin-left: 10px;
+
+    z-index: 2;
+
+}
+
+.fff-content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.fff-content-title {
+    width: 100%;
+    height: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--verdeOscuro);
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.fff-content-text {
+
+    width: 400px;
+
+    white-space: break-spaces;
+    padding: 1em;
 }
 
 .portfolio-elements-img {
@@ -98,7 +187,6 @@
 
     background-size: cover;
     
-
 }
 
 .portfolio-buttons {
