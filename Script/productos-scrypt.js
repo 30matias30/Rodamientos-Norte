@@ -1,6 +1,6 @@
 const portfolioElement = document.querySelectorAll('.portfolio-elements');
 const portfolioButtons = document.querySelectorAll('.portfolio-buttons');
-
+const bdy = document.body;
 
 
 function createNewsCard(event) {
@@ -43,7 +43,7 @@ function createNewsCard(event) {
 
     // Crea Texto
         var divText = document.createElement('div');
-        divText.classList.add('fff-content-title');
+        divText.classList.add('fff-content-text');
         divTextContent.appendChild(divText);
 
     if (clickedId === 'btn01' ||clickedId === 'btn02' || clickedId === 'btn03') {
@@ -103,7 +103,7 @@ function createNewsCard(event) {
         }
     } else if (clickedId === 'btn10' ||clickedId === 'btn11' || clickedId === 'btn12') {
 
-        portfolioElements3.appendChild(divFather);
+        portfolioElements4.appendChild(divFather);
 
         if(clickedId === 'btn10') {
             divImg.classList.add('fff-img10');
@@ -121,7 +121,7 @@ function createNewsCard(event) {
         }
     } else if (clickedId === 'btn13' ||clickedId === 'btn14' || clickedId === 'btn15') {
 
-        portfolioElements3.appendChild(divFather);
+        portfolioElements5.appendChild(divFather);
 
         if(clickedId === 'btn13') {
             divImg.classList.add('fff-img13');
@@ -139,61 +139,61 @@ function createNewsCard(event) {
         }
     } else if (clickedId === 'btn16' ||clickedId === 'btn17' || clickedId === 'btn18') {
 
-        portfolioElements3.appendChild(divFather);
+        portfolioElements6.appendChild(divFather);
 
-        if(clickedId === 'btn07') {
-            divImg.classList.add('fff-img7');
-            divTitle.classList.add('fff-title7');
-            divText.classList.add('fff-txt7');
+        if(clickedId === 'btn16') {
+            divImg.classList.add('fff-img16');
+            divTitle.classList.add('fff-title16');
+            divText.classList.add('fff-txt16');
 
-        } else if (clickedId === 'btn08') {
-            divImg.classList.add('fff-img8');
-            divTitle.classList.add('fff-title8');
-            divText.classList.add('fff-txt8');
+        } else if (clickedId === 'btn17') {
+            divImg.classList.add('fff-img17');
+            divTitle.classList.add('fff-title17');
+            divText.classList.add('fff-txt17');
         } else {
-            divImg.classList.add('fff-img9');
-            divTitle.classList.add('fff-title9');
-            divText.classList.add('fff-txt9');
+            divImg.classList.add('fff-img18');
+            divTitle.classList.add('fff-title18');
+            divText.classList.add('fff-txt18');
         }
     } else if (clickedId === 'btn19' ||clickedId === 'btn20' || clickedId === 'btn21') {
 
-        portfolioElements3.appendChild(divFather);
+        portfolioElements7.appendChild(divFather);
 
-        if(clickedId === 'btn07') {
-            divImg.classList.add('fff-img7');
-            divTitle.classList.add('fff-title7');
-            divText.classList.add('fff-txt7');
+        if(clickedId === 'btn19') {
+            divImg.classList.add('fff-img19');
+            divTitle.classList.add('fff-title19');
+            divText.classList.add('fff-txt19');
 
-        } else if (clickedId === 'btn08') {
-            divImg.classList.add('fff-img8');
-            divTitle.classList.add('fff-title8');
-            divText.classList.add('fff-txt8');
+        } else if (clickedId === 'btn20') {
+            divImg.classList.add('fff-img20');
+            divTitle.classList.add('fff-title20');
+            divText.classList.add('fff-txt20');
         } else {
-            divImg.classList.add('fff-img9');
-            divTitle.classList.add('fff-title9');
-            divText.classList.add('fff-txt9');
+            divImg.classList.add('fff-img21');
+            divTitle.classList.add('fff-title21');
+            divText.classList.add('fff-txt21');
         }
     } else if (clickedId === 'btn22' ||clickedId === 'btn23' || clickedId === 'btn24') {
 
-        portfolioElements3.appendChild(divFather);
+        portfolioElements8.appendChild(divFather);
 
-        if(clickedId === 'btn07') {
-            divImg.classList.add('fff-img7');
-            divTitle.classList.add('fff-title7');
-            divText.classList.add('fff-txt7');
+        if(clickedId === 'btn22') {
+            divImg.classList.add('fff-img22');
+            divTitle.classList.add('fff-title22');
+            divText.classList.add('fff-txt22');
 
-        } else if (clickedId === 'btn08') {
-            divImg.classList.add('fff-img8');
-            divTitle.classList.add('fff-title8');
-            divText.classList.add('fff-txt8');
+        } else if (clickedId === 'btn23') {
+            divImg.classList.add('fff-img23');
+            divTitle.classList.add('fff-title23');
+            divText.classList.add('fff-txt23');
         } else {
-            divImg.classList.add('fff-img9');
-            divTitle.classList.add('fff-title9');
-            divText.classList.add('fff-txt9');
+            divImg.classList.add('fff-img24');
+            divTitle.classList.add('fff-title24');
+            divText.classList.add('fff-txt24');
         }
     } else if (clickedId === 'btn25' ||clickedId === 'btn26' || clickedId === 'btn27') {
 
-        portfolioElements3.appendChild(divFather);
+        portfolioElements9.appendChild(divFather);
 
         if(clickedId === 'btn25') {
             divImg.classList.add('fff-img25');
@@ -211,7 +211,7 @@ function createNewsCard(event) {
         }
     } else if (clickedId === 'btn28' ||clickedId === 'btn29' || clickedId === 'btn30') {
 
-        portfolioElements3.appendChild(divFather);
+        portfolioElements10.appendChild(divFather);
 
         if(clickedId === 'btn28') {
             divImg.classList.add('fff-img28');
@@ -268,6 +268,22 @@ portfolioButtons.forEach(function(portfolioButtons) {
     portfolioButtons.addEventListener('click', createNewsCard);
 });
 
+function blur() {
+    const blurElements = [option, leadingBrands, greenSliderDivisor, productSliderbody, portfolioBody];
+    blurElements.forEach((element) => {
+        element.classList.toggle('blur');
+    })
+}
+
+// ID for Blur()
+
+const option = document.querySelector('#optionsBar');
+const leadingBrands = document.getElementsByClassName('leading-brands');
+const greenSliderDivisor = document.querySelectorAll('.green-slider-divisor');
+const productSliderbody = document.querySelector('#product-slider-body');
+const portfolioBody = document.querySelector('.portfolio-body');
+
+const elementsBlur = [option, leadingBrands, greenSliderDivisor, productSliderbody, portfolioBody]
 
 // portfolio-elements ID
 
