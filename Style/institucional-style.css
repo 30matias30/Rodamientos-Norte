@@ -85,9 +85,19 @@
     margin: 2em;
 }
 
+.inst-card-container {
+    line-height: 25px;
+
+
+}
+
 .inst-card-container div {
     display: flex;
     align-items: center;
+}
+
+.inst-card-container div:not(.inst-card-tittle) {
+
     justify-content: space-evenly;
 }
 
@@ -119,10 +129,14 @@
     width: 50%;
     border-radius: 0 0 10px 0;
 
-    padding-left: 30px;
+    padding-left: 1em;
 
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 20px;
     height: 2rem;
+
+    text-align: left;
+    letter-spacing: 3px;
 }
 
 #inst-card-tittle-green {
