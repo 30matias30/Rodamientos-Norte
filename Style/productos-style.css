@@ -144,12 +144,15 @@
     margin-right: -5px;
     margin-left: 10px;
 
+    z-index: 2;
+
 }
 
 .fff-content {
     display: flex;
     flex-flow: column;
     align-items: center;
+    max-height: 230px;
 
 
 }
@@ -176,6 +179,7 @@
 
     white-space: break-spaces;
     padding: 1em;
+    overflow: scroll;
 }
 
 .portfolio-elements-img {

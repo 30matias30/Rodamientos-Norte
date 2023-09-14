@@ -510,6 +510,24 @@ display: block;
     z-index: 3;
 }
 
+.prodGeneratedBackground {
+    position:absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;  
+
+    width: 100%;
+    height: 8000px;
+
+    filter: blur(5px);
+    opacity: 65%;
+
+    z-index: 3;
+}
+
 .newsGeneratedCard {
     position: absolute;
 

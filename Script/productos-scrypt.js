@@ -5,6 +5,12 @@ const bdy = document.body;
 
 function createNewsCard(event) {
 
+        // Crea el fondo
+    const newsBackground = document.createElement('div');
+    newsBackground.classList.add('prodGeneratedBackground')
+    document.body.appendChild(newsBackground);
+    document.body.insertBefore(newsBackground, bdy.firstChild);
+
     // obtener el ID del boton
         const clickedId = event.currentTarget.id;
 
@@ -247,7 +253,15 @@ function createNewsCard(event) {
         }
     }
 
-
+    // Cerrar noticia al hacer click fuera
+    newsBackground.addEventListener('click', function(event) {
+        const divFather = document.querySelector('.fff');
+        if (divFather && event.target !== divFather && !event.target.classList.contains('newsHolder')) {
+            // Comprueba si el objetivo del clic no es divFather ni un elemento .newsHolder
+            divFather.remove(); // Elimina divFather del DOM
+            newsBackground.remove();
+        }
+    });
 
 
     // Boton de cierre
@@ -256,7 +270,7 @@ function createNewsCard(event) {
         if (divFather && event.target !== divFather && !event.target.classList.contains('fff')) {
             // Comprueba si el objetivo del clic no es divFather ni un elemento .newsHolder
             divFather.remove(); // Elimina divFather del DOM
-            // newsBackground.remove();
+            newsBackground.remove();
         }
     })
 
