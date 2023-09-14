@@ -33,7 +33,7 @@ loaderLogo.onclick = function() {
 
 // BOTONES DE NAVEGACIÓN
 
-const optionButton = document.querySelectorAll('.option');
+const optionButton = document.querySelectorAll('.option-script');
 const sideBar = document.querySelector('.sideBar');
 const body = document.querySelector('#body');
 const header = document.querySelector('#header');
@@ -42,6 +42,16 @@ const middleNews = document.querySelector('#middle-news');
 const footerPhoto = document.querySelector('.footer-photo');
 const footer = document.querySelector('.footer');
 const greenSeparator = document.querySelector('.green-separator');
+const catalogBody = document.querySelector('#catalog-body');
+const mobileGreenSeparator = document.querySelector('.mobile-green-separator');
+const mobileFooter = document.querySelector('.mobile-footer');
+const instBody = document.querySelector('.inst-body');
+const greenSliderDiv = document.querySelector('.green-slider-divisor');
+const greenSliderDiv2 = document.querySelector('.green-slider-divisor-bottom')
+const leadingBrands = document.querySelector('.leading-brands');
+const productSliderTrack = document.querySelector('#product-slider-track');
+const portfolioBody = document.querySelector('.portfolio-body');
+const prodSlidBdy = document.querySelector('#product-slider-body');
 
 optionButton.forEach( div => {
     div.addEventListener("click", function() {
@@ -74,17 +84,17 @@ optionButton.forEach( div => {
 
 const closeBtn = document.querySelector('.close-btn');
 
-closeBtn.addEventListener('click', function(){
-    sideBar.classList.remove('actived');
-    blur();
-});
+// closeBtn.addEventListener('click', function(){
+//     sideBar.classList.remove('actived');
+//     blur();
+// });
 
-function blur() {
-    const blurElements = [body, header, optionsBar, middleNews, footerPhoto, footer, greenSeparator];
-    blurElements.forEach((element) => {
-        element.classList.toggle('blur');
-    })
-}
+// function blur() {
+//     const blurElements = [body, header, optionsBar, middleNews, footerPhoto, footer, greenSeparator];
+//     blurElements.forEach((element) => {
+//         element.classList.toggle('blur');
+//     })
+// }
 
 // ICONO DE NAVEGACIÓN
 
@@ -135,24 +145,7 @@ footerButton.forEach(div => {
 })
 
 
-// CONTACTO FORM MOBILE VERSION
 
-const formCard1 = document.querySelector('#contact-form-card1');
-const formCard2 = document.querySelector('#contact-form-card2');
-const formCard3 = document.querySelector('#contact-form-card-invisible');
-
-const nextButton1 = document.querySelector('.nextButton1');
-const nextButton2 = document.querySelector('.nextButton2');
-
-nextButton1.addEventListener('click', () => {
-    formCard1.classList.toggle('contact-form-card-invisible');
-    formCard2.classList.toggle('contact-form-card-invisible');
-})
-
-nextButton2.addEventListener('click', () => {
-    formCard2.classList.toggle('contact-form-card-invisible');
-    formCard3.id = '';
-})
 
 
 

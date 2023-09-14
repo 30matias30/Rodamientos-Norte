@@ -49,3 +49,4 @@ const icon = document.getElementById('icon');
 icon.addEventListener('click', ()=> {
     window.location = '/Rodamientos-Norte/index.html';
 })
+

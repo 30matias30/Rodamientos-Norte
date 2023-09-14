@@ -268,22 +268,6 @@ portfolioButtons.forEach(function(portfolioButtons) {
     portfolioButtons.addEventListener('click', createNewsCard);
 });
 
-function blur() {
-    const blurElements = [option, leadingBrands, greenSliderDivisor, productSliderbody, portfolioBody];
-    blurElements.forEach((element) => {
-        element.classList.toggle('blur');
-    })
-}
-
-// ID for Blur()
-
-const option = document.querySelector('#optionsBar');
-const leadingBrands = document.getElementsByClassName('leading-brands');
-const greenSliderDivisor = document.querySelectorAll('.green-slider-divisor');
-const productSliderbody = document.querySelector('#product-slider-body');
-const portfolioBody = document.querySelector('.portfolio-body');
-
-const elementsBlur = [option, leadingBrands, greenSliderDivisor, productSliderbody, portfolioBody]
 
 // portfolio-elements ID
 

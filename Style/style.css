@@ -620,3 +620,7 @@ display: block;
 .blur {
     filter: blur(5px);
   }
+
+  #product-slider-body.blur::after {
+    background: none;
+  }

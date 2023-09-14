@@ -43,14 +43,13 @@
     <div id="optionsBar"> 
     
         <div>
-            <div id="bar" class="option" data-url="sideBar">INICIO</div>
-            <div id="ini" class="option" data-url="/Rodamientos-Norte/index.html">NORTE</div>
-            <div id="prod" class="option" data-url="/Rodamientos-Norte/Index/productos.html">PRODUCTOS</div>
-            <div id="inst" class="option" data-url="/Rodamientos-Norte/Index/institucional.html">INSTITUCIONAL</div>
-            <div id="catalog" class="option" data-url="/Rodamientos-Norte/Index/catalogos.html">CATALOGOS</div>
-            <div id="contact" class="option" data-url="/Rodamientos-Norte/Index/contacto.html">CONTACTO</div>
+          <div id="bar" class="option option-script-mobile" data-url="sideBar">INICIO</div>
+          <div id="ini" class="option option-script" data-url="/Rodamientos-Norte/index.html">INICIO</div>
+          <div id="prod" class="option option-script" data-url="/Rodamientos-Norte/Index/productos.html">PRODUCTOS</div>
+          <div id="inst" class="option option-script" data-url="/Rodamientos-Norte/Index/institucional.html">INSTITUCIONAL</div>
+          <div id="catalog" class="option option-script" data-url="/Rodamientos-Norte/Index/catalogos.html">CATALOGOS</div>
+          <div id="contact" class="option option-script" data-url="/Rodamientos-Norte/Index/contacto.html">CONTACTO</div>
         </div>
-  
     </div>
 
     <div id="sideBar" class="sideBar">
@@ -78,11 +77,11 @@
 
       <div class="links">
 
-        <div id="ini" class="option" data-url="/Rodamientos-Norte/index.html">NORTE</div>
-        <div id="prod" class="option" data-url="/Rodamientos-Norte/Index/productos.html">PRODUCTOS</div>
-        <div id="inst" class="option" data-url="/Rodamientos-Norte/Index/institucional.html">INSTITUCIONAL</div>
-        <div id="catalog" class="option" data-url="/Rodamientos-Norte/Index/catalogos.html">CATALOGOS</div>
-        <div id="contact" class="option" data-url="/Rodamientos-Norte/Index/contacto.html">CONTACTO</div>
+        <div id="ini" class="option option-script" data-url="/Rodamientos-Norte/index.html">NORTE</div>
+        <div id="prod" class="option option-script" data-url="/Rodamientos-Norte/Index/productos.html">PRODUCTOS</div>
+        <div id="inst" class="option option-script" data-url="/Rodamientos-Norte/Index/institucional.html">INSTITUCIONAL</div>
+        <div id="catalog" class="option option-script" data-url="/Rodamientos-Norte/Index/catalogos.html">CATALOGOS</div>
+        <div id="contact" class="option option-script" data-url="/Rodamientos-Norte/Index/contacto.html">CONTACTO</div>
 
       </div>
 
@@ -182,7 +181,7 @@
 
             <div class="product-slider">
 
-                <img src="./Pictures/Productos/Slider/Slider2.png" alt="">
+                <img src="/Rodamientos-Norte/Pictures/Productos/Slider/Slider2.png" alt="">
 
             </div>
 
@@ -266,19 +265,6 @@
                     <div id="btn01" class="green-portfolio-buttons portfolio-buttons">Rodamientos automotriz </div>
                     <div id="btn02"class="green-portfolio-buttons portfolio-buttons">Rodamientos agricolas </div>
                     <div id="btn03" class="green-portfolio-buttons portfolio-buttons">Rodamientos industriales</div>
-                    <!-- <div class="fff">
-                        <div class="closeBtn">
-                            <span class="x1"></span>
-                            <span class="x2"></span>
-                        </div>
-                        <div class="fff-img"></div>
-                        <div class="fff-content">
-                            <div class="fff-content-title">
-                                <p>BOMBAS DE AGUA </p>
-                            </div>
-                            <div class="fff-content-text">La bomba de agua es una bomba centrífuga. Mantiene la temperatura del motor por debajo de la temperatura de sobrecalentamiento. Cuando el motor está en funcionamiento, la bomba fuerza el flujo de anticongelante. Una banda conecta el cigüeñal de la bomba de agua del motor para proporcionar la activación de la bomba. La bomba de agua está ubicada delante del motor y el accionamiento se realiza a través de la banda de distribución o la banda accesoria.</div>
-                        </div>
-                    </div> -->
 
                 </div>
 
@@ -524,6 +510,27 @@
     
       <script src="/Rodamientos-Norte/Script/scrypt.js"></script>
       <script src="/Rodamientos-Norte/Script/productos-scrypt.js"></script>
+      <script>
+
+        let scriptMobileBtn = document.querySelector('.option-script-mobile');
+  
+        scriptMobileBtn.addEventListener('click', function(){
+            sideBar.classList.toggle('actived');
+            let blurElements = [header, optionsBar, leadingBrands, greenSliderDiv, greenSliderDiv2, productSliderTrack, prodSlidBdy, portfolioBody, mobileGreenSeparator, footerPhoto, mobileFooter];
+            blurElements.forEach((element) =>{
+              element.classList.toggle('blur')
+            })
+        })
+  
+        closeBtn.addEventListener('click', function(){
+            sideBar.classList.remove('actived');
+            let blurElements = [header, optionsBar, leadingBrands, greenSliderDiv, greenSliderDiv2, productSliderTrack, prodSlidBdy, portfolioBody, mobileGreenSeparator, footerPhoto, mobileFooter];
+            blurElements.forEach((element) =>{
+              element.classList.toggle('blur')
+            })
+        });
+  
+      </script
   
   </body>
   </html>
