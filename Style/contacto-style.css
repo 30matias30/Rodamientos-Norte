@@ -275,7 +275,14 @@ textarea::placeholder {
     margin-left: auto;
     margin-right: 50px;
 
+    cursor: pointer;
+    transition: 300ms;
 
+}
+
+#contact-form-btn:hover {
+    transform: scale(1.1);
+    transition: 300ms;
 }
 
 .green-separator p {
