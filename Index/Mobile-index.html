@@ -59,6 +59,7 @@
           <div id="catalog" class="option option-script" data-url="/Rodamientos-Norte/Index/catalogos.html">CATALOGOS</div>
           <div id="contact" class="option option-script" data-url="/Rodamientos-Norte/Index/contacto.html">CONTACTO</div>
         </div>
+
     </div>
 
     <div id="sideBar" class="sideBar">
@@ -417,6 +418,14 @@ carousel.addEventListener("touchend", dragStop);
             element.classList.toggle('blur')
           })
       })
+
+      closeBtn.addEventListener('click', function(){
+            sideBar.classList.remove('actived');
+            let blurElements = [header, optionsBar, body, middleNews, footerPhoto, footer, greenSeparator]
+            blurElements.forEach((element) =>{
+              element.classList.toggle('blur')
+            })
+        });
 
     </script>
 

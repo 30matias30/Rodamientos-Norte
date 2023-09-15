@@ -53,13 +53,14 @@
     <div id="optionsBar"> 
     
       <div>
-        <div id="bar" class="option" data-url="sideBar">INICIO</div>
-        <div id="ini" class="option" data-url="/Rodamientos-Norte/index.html">INICIO</div>
-        <div id="prod" class="option" data-url="/Rodamientos-Norte/Index/productos.html">PRODUCTOS</div>
-        <div id="inst" class="option" data-url="/Rodamientos-Norte/Index/institucional.html">INSTITUCIONAL</div>
-        <div id="catalog" class="option" data-url="/Rodamientos-Norte/Index/catalogos.html">CATALOGOS</div>
-        <div id="contact" class="option" data-url="/Rodamientos-Norte/Index/contacto.html">CONTACTO</div>
+        <div id="bar" class="option option-script-mobile" data-url="sideBar">INICIO</div>
+        <div id="ini" class="option option-script" data-url="/Rodamientos-Norte/index.html">INICIO</div>
+        <div id="prod" class="option option-script" data-url="/Rodamientos-Norte/Index/productos.html">PRODUCTOS</div>
+        <div id="inst" class="option option-script" data-url="/Rodamientos-Norte/Index/institucional.html">INSTITUCIONAL</div>
+        <div id="catalog" class="option option-script" data-url="/Rodamientos-Norte/Index/catalogos.html">CATALOGOS</div>
+        <div id="contact" class="option option-script" data-url="/Rodamientos-Norte/Index/contacto.html">CONTACTO</div>
       </div>
+      
   </div>
 
   <div id="sideBar" class="sideBar">
@@ -152,4 +153,31 @@
 
       <script src="/Rodamientos-Norte/Script/scrypt.js"></script>
       <script src="/Rodamientos-Norte/Script/mobile-scrypt.js"></script>
+      <script>
+
+        let scriptMobileBtn = document.querySelector('.option-script-mobile');
+  
+        scriptMobileBtn.addEventListener('click', function(){
+
+          let newsPlaceHolder = document.querySelector('#news-placeHolder');
+
+            sideBar.classList.toggle('actived');
+            let blurElements = [header, optionsBar,newsPlaceHolder, footer]
+            blurElements.forEach((element) => {
+              element.classList.toggle('blur')
+            })
+        });
+
+        closeBtn.addEventListener('click', function(){
+
+          let newsPlaceHolder = document.querySelector('#news-placeHolder');
+
+          sideBar.classList.remove('actived');
+          let blurElements = [header, optionsBar,newsPlaceHolder, footer]
+          blurElements.forEach((element) =>{
+            element.classList.toggle('blur')
+          })
+      });
+  
+      </script>
 </body>
