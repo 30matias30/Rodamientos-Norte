@@ -411,8 +411,20 @@
       let scriptMobileBtn = document.querySelector('.option-script-mobile');
 
       scriptMobileBtn.addEventListener('click', function(){
-          sideBar.classList.toggle('actived');
-      })
+            sideBar.classList.toggle('actived');
+            let blurElements = [header, optionsBar, mobileContactTop, mobileContactBot, mobileGreenSeparator, footerPhoto, mobileFooter];
+            blurElements.forEach((element) =>{
+              element.classList.toggle('blur')
+            })
+        })
+  
+        closeBtn.addEventListener('click', function(){
+            sideBar.classList.remove('actived');
+            let blurElements = [header, optionsBar, mobileContactTop, mobileContactBot, mobileGreenSeparator, footerPhoto, mobileFooter];
+            blurElements.forEach((element) =>{
+              element.classList.toggle('blur')
+            })
+        });
 
     </script>
 

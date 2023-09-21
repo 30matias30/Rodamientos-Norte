@@ -52,6 +52,8 @@ const leadingBrands = document.querySelector('.leading-brands');
 const productSliderTrack = document.querySelector('#product-slider-track');
 const portfolioBody = document.querySelector('.portfolio-body');
 const prodSlidBdy = document.querySelector('#product-slider-body');
+const mobileContactTop = document.querySelector('.mobile-contact-top-body');
+const mobileContactBot = document.querySelector('.contact-bottom-body');
 
 optionButton.forEach( div => {
     div.addEventListener("click", function() {
